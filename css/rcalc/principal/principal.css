@@ -1,0 +1,82 @@
+@keyframes animation1 {
+  0% {
+    transition-property: all;
+    transition-delay: 2ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+  }
+  100% {
+    transition-property: all;
+    transition-delay: 2ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+}
+
+.rcalc_warning {
+  display: none;
+  font-family: 'Ubuntu-Light';
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #ff0000;
+  text-shadow: #000000 2px 2px;
+  padding: 0.6vw 0.4vw;
+  border-radius: 8px;
+  position: fixed;
+  z-index: 2;
+  top: 7.4vw;
+  width: 98vw;
+
+  animation-name: animation1;
+  animation-duration: 600ms;
+  animation-delay: 2ms;
+  animation-fill-mode: initial;
+}
+
+.rcalc_options {
+  display: inline-block;
+  margin-bottom: 1vw;
+}
+
+.rcalc_options__title {
+  display: inline-block;
+  font-family: 'Baumans-Regular';
+  font-size: 4rem;
+  margin-left: 1.4vw;
+  border-bottom: 2.2px solid #00ff99;
+}
+
+.rcalc_option__cont_super {
+  display: inline-block;
+  margin-left: 2.8vw;
+  width: 96vw;
+}
+
+.rcalc_option__cont {
+  display: inline-block;
+  font-family: 'Baumans-Regular';
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 0.6vw 0.4vw;
+  border-radius: 6px;
+  margin-top: 1vw;
+  width: 90vw;
+}
+
+.rcalc_option__cont:hover {
+  background-color: #66666688;  
+}
+
+.rcalc_option__item {
+  display: inline-block;
+  text-shadow: 3px 2px #000000;
+}
+
+.rcalc_option__item___descricao {
+  text-align: right;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-shadow: 3px 2px #00ff99;
+  width: 100%;
+}
