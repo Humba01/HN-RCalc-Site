@@ -1,5 +1,74 @@
 .menu_conteiner {
-  position: initial;
+  display: inline-block;
+  font-family: 'Ubuntu-Light';
+  color: #333333;
+  text-shadow: #00dd99 2px 2px;
+  padding: 0.4vw 0.3vw;
+  font-size: 26px;
+  position: fixed;
+  margin-top: -1.9vw;
+  background-color: #00dd77;
+  align-content: flex-end;
+  text-align: left;
+  line-height: 2.8vw;
+  box-shadow: -2px 2px 10px #333333;
+  margin-left: 60vw;
+  width: 38vw;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  z-index: 3;
+}
+
+.menu_anchors {
+  text-decoration: none;
+  color: #333333;
+}
+
+.menu_pag_inicio {
   background-color: #00ff99;
-  width: 30vw;
+  border-bottom: #000000 solid 3px;
+  border-radius: 6px;
+}
+
+.menu_pag_inicio:hover {
+  background-color: #00cc99;
+  color: #ffffff;
+}
+
+.menu_categoria_cont {
+  margin-top: 0.6vw;
+  background-color: #00ff99;
+  padding: 0.4vw 0.4vw;
+  border-radius: 6px;
+  border-bottom: #000000 solid 3px;
+}
+
+.menu_categoria_titulo {
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.menu_categoria_lista {
+  background-color: #00eeaa;
+  border-radius: 6px;
+  border-bottom: #000000 solid 3px;
+  padding: 0.4vw 0.4vw;
+}
+
+.menu_categoria_lista__item {
+  font-size: 22px;
+  border-radius: 6px;
+  margin-top: 0.4vw;
+  background-color: #00ccbb;
+  padding: 0.4vw 0.4vw;
+  width: 98%;
+  border-bottom: #000000 solid 3px;
+  cursor: pointer;
+}
+
+.menu_categoria_lista__item:hover {
+  background-color: #00ccff;
+  color: #ffffff;
 }
