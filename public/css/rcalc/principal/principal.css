@@ -1,0 +1,101 @@
+.rcalc_warning {
+  display: none;
+  font-family: 'Ubuntu-Light';
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #ff0000;
+  text-shadow: #000000 2px 2px;
+  padding: 0.6vw 0.4vw;
+  border-radius: 8px;
+  position: fixed;
+  z-index: 2;
+  top: 9vw;
+  left: 0;
+  width: 98vw;
+}
+
+.rcalc_count_conteiner {
+  display: inline-block;
+  font-family: 'Exo2-Regular';
+  font-size: 28px;
+  position: fixed;
+  z-index: 2;
+  bottom: 6px;
+  text-align: right;
+  right: 0;
+  color: #00ff99;
+  text-shadow: #66ffaa 0px 2px;
+  margin-right: 0.5vw;
+  margin-bottom: 0.5vw;
+  width: 30vw;
+}
+
+#funcoes {
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#setores {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: -0.05vw;
+}
+
+.rcalc_count_item {
+  display: inline-block;
+  background-color: #333333;
+  border-color: #444444;
+  border-width: 1.6px;
+  border-style: solid;
+  padding: 0.4vw 0.4vw;
+}
+
+.rcalc_options {
+  display: inline-block;
+  margin-bottom: 1vw;
+}
+
+.rcalc_options__title {
+  display: inline-block;
+  font-family: 'Baumans-Regular';
+  font-size: 4rem;
+  margin-left: 1.4vw;
+  border-bottom: 2.2px solid #00ff99;
+}
+
+.rcalc_option__cont_super {
+  display: inline-block;
+  margin-left: 2.8vw;
+  width: 96vw;
+}
+
+.rcalc_option__cont {
+  display: inline-block;
+  font-family: 'Baumans-Regular';
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 0.6vw 0.4vw;
+  border-radius: 6px;
+  margin-top: 1vw;
+  width: 90vw;
+  cursor: pointer;
+}
+
+.rcalc_option__cont:hover {
+  background-color: #66666688;  
+}
+
+.rcalc_option__item {
+  display: inline-block;
+  text-shadow: 3px 2px #000000;
+}
+
+.rcalc_option__item___descricao {
+  text-align: right;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-shadow: 3px 2px #00ff99;
+  width: 100%;
+}

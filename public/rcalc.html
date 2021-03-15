@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta lang="pt-br"/>
+    <title>Humbanew RCalc | A Calculadora dos sonhos.</title>
+    <link rel="icon" href="svg/logo/new-logo/Humbanew Logo (Design) - 2.0 - 12º Gen - Branco.svg"/>
+
+    <!-- build:css css/rcalc_page.css -->
+
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/pag-inicial/cabecalho.css"/>
+    <link rel="stylesheet" href="css/pag-inicial/rodape.css"/>
+    <link rel="stylesheet" href="css/rcalc/slogan/slogan.css"/>
+    <link rel="stylesheet" href="css/rcalc/principal/principal.css"/>
+    <link rel="stylesheet" href="css/rcalc/principal/menu.css"/>
+    <link rel="stylesheet" href="css/subpaginas/suboptions.css"/>
+
+    <!-- endbuild -->
+
+  </head>
+  <body id="corpo">
+    
+    <header class="cabecalho_conteiner">
+      <div class="cabecalho_cont_parent" id="btn_main">
+        <img src="svg/logo/new-logo/Humbanew Logo (Design) - 2.0 - 12º Gen - Preto.svg" alt="Humbanew Logo" class="logo_part_i"/>
+        <div class="cab_conteiner_title">
+          <h1 class="text1_title">Humbanew RCalc</h1>
+          <p class="text2_title" id="beta_text">Alpha</p>
+        </div>
+        <img class="button_menu" id="btn_menu" src="svg/icons/opitions_comum.svg"/>
+      </div>
+    </header>
+
+    <section class="menu_conteiner" id="menu_lateral">
+      <h2 class="menu_item">Página principal</h2>
+      <div class="menu_categoria_cont">
+        <h3 class="menu_categoria_titulo">Modos</h3>
+        <ol class="menu_categoria_lista">
+          <li class="menu_categoria_item">
+            <p class="menu_categoria_item__texto" id="comum_card_menu">Comum</p>
+          </li>
+          <li class="menu_categoria_item">
+            <p class="menu_categoria_item__texto" id="cientifica_card_menu">Científica</p>
+          </li>
+          <li class="menu_categoria_item">
+            <p class="menu_categoria_item__texto" id="suprema_card_menu">Suprema</p>
+          </li>
+          <li class="menu_categoria_item" id="desm_c_menu">
+            <p class="menu_categoria_item__texto" id="desmontada_card_menu">Desmontada</p>
+            <ol class="menu_subcategoria_lista">
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Covencionais</p>
+                <ol class="menu_subcategoria_secundaria_lista">
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Soma</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Subtração</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Multiplicação</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Divisão</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Potência</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Potência de Potência</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Raiz Quadrada</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Raiz Cúbica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Raiz Biquadrada</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Raiz Bicúbica</p>
+                  </li>
+                </ol>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Trigonométricas</p>
+                <ol class="menu_subcategoria_secundaria_lista">
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Seno</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Cosseno</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Tangente</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Secante</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Cossecante</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Cotangente</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Seno Hiperbólico</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Cosseno Hiperbólico</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Tangente Hiperbólica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Secante Hiperbólica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Cossecante Hiperbólica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Cotangente Hperbólica</p>
+                  </li>
+                </ol>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Arcos Trigonométricos</p>
+                <ol class="menu_subcategoria_secundaria_lista">
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Seno</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Cosseno</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Tangente</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Secante</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Cossecante</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Cotangente</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Seno Hiperbólico</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Cosseno Hiperbólico</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Tangente Hiperbólica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Secante Hiperbólica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Cossecante Hiperbólica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Arco Cotangente Hperbólica</p>
+                  </li>
+                </ol>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Logarítmas</p>
+                <ol class="menu_subcategoria_secundaria_lista">
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Logarítmo de Base 2</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Logarítmo de Base 10</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Logarítmo Natural</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Logarítmo Natural mais Um</p>
+                  </li>
+                </ol>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Conversores de Bases</p>
+                <ol class="menu_subcategoria_secundaria_lista">
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Monetárias</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Techno</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Techno Computacionais</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de Ângulo Comum</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de Ângulo Plano</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de Ângulo Sólido</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de Comprimento</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de Área</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de Volume</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de 4 Dimensões</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de 5 Dimensões</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Math de 6 Dimensões</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Tempo</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Pressão</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Temperatura</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Fluxo Magnético</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Frequência</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Força</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Energia</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Potência</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Carga Elétrica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic da Dif. de Potencial Elétrico</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Capacitância</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Resistência Elétrica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Condutância Elétrica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Fluxo de Ind. Magnética</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Indução Magnética</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Indutância</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Fluxo Luminoso</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Physic de Iluminãncia</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Chemical de Atividade Radionuclear</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Chemical de Dose Absorvida</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Chemical de Dose Equivalente</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Chemical de Atividade Catalítica</p>
+                  </li>
+                  <li class="menu_subcategoria_secundaria_item">
+                    <p class="menu_subcategoria_secundaria_texto">Bases Chemical de Massa Específica</p>
+                  </li>
+                </ol>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas Matemáticas</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas Físicas</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas Químicas</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas Biológicas</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas Geográficas</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas Históricas</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas de Transformação</p>
+              </li>
+              <li class="menu_subcategoria_item">
+                <p class="menu_subcategoria_texto">Fórmulas de Demonstração</p>
+              </li>
+            </ol>
+          </li>
+          <li class="menu_categoria_item">
+            <p class="menu_categoria_item__texto" id="grafica_card_menu">Gráfica</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <span class="rcalc_warning" id="warning">Nenhum Aviso.</span>
+    
+    <section class="rcalc_count_conteiner">
+      <p class="rcalc_count_item" id="setores">Setores: 0</p>
+      <p class="rcalc_count_item" id="funcoes">Funcionalidades: 0</p>
+    </section>
+
+    <section class="rcalc_slogan">
+      <p class="rcalc_text_slogan" id="slogan">A Calculadora dos sonhos.</p>
+    </section>
+
+    <section class="rcalc_options">
+      <h1 class="rcalc_options__title">Modos de Funcionamento:</h1>
+      <div class="rcalc_option__cont_super">
+        <div class="rcalc_option__cont" id="comum_card">
+          <p class="rcalc_option__item">Comum</p>
+          <p class="rcalc_option__item___descricao">A forma mais popular de uma Calculadora.</p>
+        </div>
+        <div class="rcalc_option__cont" id="cientifica_card">
+          <p class="rcalc_option__item">Científica</p>
+          <p class="rcalc_option__item___descricao">A forma criada para cálculos avançados.</p>
+        </div>
+        <div class="rcalc_option__cont" id="suprema_card">
+          <p class="rcalc_option__item">Suprema</p>
+          <p class="rcalc_option__item___descricao">A forma mais complexa e completa de uma Calculadora.</p>
+        </div>
+        <div class="rcalc_option__cont" id="desmontada_card">
+          <p class="rcalc_option__item">Desmontada</p>
+          <p class="rcalc_option__item___descricao">A forma mais incomum de fazer cálculos.</p>
+        </div>
+        <div class="rcalc_option__cont" id="grafica_card">
+          <p class="rcalc_option__item">Gráfica</p>
+          <p class="rcalc_option__item___descricao">A forma onde são mostrados detalhes mais profundos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- modo desmontada -->
+    <section class="rcalc_suboptions">
+      <h2 class="rcalc_suboptions_titulo">Desmontada</h2>
+      <ol class="rcalc_suboptions_lista">
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Covencionais</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Trigonométricas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Arcos Trigonométricos</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Logarítmas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Complexas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Conversores de Bases</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Matemáticas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Físicas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Químicas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Biológicas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Geográficas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Históricas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas de Transformação</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Fórmulas de Demonstração</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Covencionais -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Covencionais</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Soma</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Subtração</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Multiplicação</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Divisão</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Potência</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Potência de Potência</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Quadrada</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Cúbica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Biquadrada</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Bicúbica</p>
+        </li>
+      </ol>
+    </section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+
+    <!-- Trigonométricas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Trigonométricos</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Seno</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Cosseno</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Tangente</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Secante</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Cossecante</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Cotangente</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Seno Hiperbólico</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Cosseno Hiperbólico</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Tangente Hiperbólica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Secante Hiperbólica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Cossecante Hiperbólica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Cotangente Hiperbólica</p>
+        </li>
+      </ol>
+    </section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    
+    <!-- Arcos Trigonométricos -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Arcos Trigonométricos</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Seno</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Cosseno</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Tangente</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Secante</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Cossecante</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Cotangente</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Seno Hiperbólico</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Cosseno Hiperbólico</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Tangente Hiperbólica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Secante Hiperbólica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Cossecante Hiperbólica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Arco Cotangente Hiperbólica</p>
+        </li>
+      </ol>
+    </section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+
+    <!-- Logarítmas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Logarítmas</h2>
+            <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Logarítmo de Base 2</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Logarítmo de Base 10</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Logarítmo de Base Qualquer</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Logarítmo Natural</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Logarítmo Natural mais um</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Logarítmo Natural mais Qualquer Valor</p>
+        </li>
+      </ol>
+    </section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+    <section class="rcalc_setores_conteiner_secundario"></section>
+
+    <!-- Conversores de Bases -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Conversores de Bases</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Monetárias</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Techno</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Techno Computacionais</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Ângulo Comum</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Ângulo Plano</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Ângulo Sólido</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Comprimento</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Área</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Volume</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de 4 Dimensões</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de 5 Dimensões</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de 6 Dimensões</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Math de Massa</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Tempo</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Pressão</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Temperatura</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Fluxo Magnético</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Frequência</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Força</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Energia</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Potência</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Carga Elétrica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic da Dif. de Potencial Elétrico</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Capacitância</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Resistência Elétrica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Condutância Elétrica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Fluxo de Ind. Magnética</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Indução Magnética</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Indutância</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Fluxo Luminoso</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Physic de Iluminância</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Chemical de Atividade Radionuclear</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Chemical de Dose Absorvida</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Chemical de Dose Equivalente</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Chemical de Atividade Catalítica</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Bases Chemical de Massa Específica</p>
+        </li>
+      </ol>
+    </section>
+    
+    <!-- Fórmulas Matemáticas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas Matemáticas</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Função do 1º Grau</p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Função do 2º Grau (Bhaskara)</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Função do 2º Grau (Covencional)</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Fórmula de Girard</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Função Exponencial</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Função Biquadrática</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Sistema de Função</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Sistemas Lineares</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Soma de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Subtração de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Multiplicação de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Divisão de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Potência de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Potência de Potência de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Quadrada de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Cúbica de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Biquadrada de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Raiz Bicúbica de Polinômios</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Comprimento de uma Reta</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Área de um Quadrado</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Área de um Retângulo</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Área de um Retângulo Qualquer</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Área de um Triângulo Equilátero</p>
+        </li>  
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto">Área de um Triângulo Qualquer</p>
+        </li>  
+      </ol>
+    </section>
+
+    <!-- Fórmulas Físicas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas Físicas</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>        
+      </ol>
+    </section>
+
+    <!-- Fórmulas Químicas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas Químicas</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>      
+      </ol>
+    </section>
+
+    <!-- Fórmulas Biológicas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas Biológicas</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Fórmulas Geográficas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas Geográficas</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Fórmulas Históricas -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas Históricas</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Fórmulas de Transformação -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas de Transformação</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Fórmulas de Desmonstração -->
+    <section class="rcalc_setores_conteiner_primario">
+      <h2 class="rcalc_setores_titulo">Fórmulas de Demonstração</h2>
+      <ol class="rcalc_setores_lista">
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+        <li class="rcalc_setores_item functions_count">
+          <p class="rcalc_setores_item__texto"></p>
+        </li>
+      </ol>
+    </section>
+
+    <script src="js/config/config.js"></script>
+    <!-- <script src="js/config/animation.js"></script> -->
+
+  </body>
+  <footer>
+    <section class="rodape">
+      <div class="rodape_letreiro_conteiner">
+        <h2 class="rodape_letreiro">Humbanew</h2>
+      </div>
+      <div class="rodape_infos_conteiner">
+        <div class="rodape_infos_conteiner_secundario">
+          <h3 class="rodape_infos_titulo">Subdivisões</h3>
+          <ol class="rodape_infos_lista">
+            <li class="rodape_infos_item">Heverdev</li>
+            <li class="rodape_infos_item">Treatplay</li>
+            <li class="rodape_infos_item">Worldteam</li>
+          </ol>
+        </div>
+      </div>
+      <div class="rodape_infos_conteiner">
+        <div class="rodape_infos_conteiner_secundario">
+          <h3 class="rodape_infos_titulo">Serviços</h3>
+          <ol class="rodape_infos_lista">
+            <li class="rodape_infos_item">RCalc</li>
+            <li class="rodape_infos_item">DPass</li>
+            <li class="rodape_infos_item">UNote</li>
+            <li class="rodape_infos_item">SGMP</li>
+          </ol>
+        </div>
+      </div>
+      <div class="rodape_copyright">
+        <h2 class="rodape_copyright_texto">Humbanew Technologies © 2015 - 2021</h2>
+      </div>
+    </section>
+  </footer>
+</html>

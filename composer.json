@@ -1,0 +1,13 @@
+{
+    "name": "humba/hn-r-calc-site",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Humberto Bravo",
+            "email": "humbandroid@gmail.com"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "^2.5"
+    }
+}

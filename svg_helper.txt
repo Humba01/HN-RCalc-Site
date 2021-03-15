@@ -1,0 +1,47 @@
+__ATRIBUTOS__
+
+cx=" "  => coordenada x.    
+cy=" "  => coordenada y.
+r=" "    => raio.
+rx =" " => raio coordenada x.
+ry=" " => raio coordenada y.
+stroke=" "  => borda.
+stroke-width=" " =>  borda lagura.
+fill=" " => preenchimento.
+
+geração de arquivos SVGs
+
+<defs> => definições.
+<linearGradient> => gradientes lineares.
+<g> => grupos.
+<rect> => retângulos.
+<polygon> => polígonos.
+<circle> => círculos.
+<ellipse> => elipses.
+<line> => linhas.
+<polygon> => polígonos.
+<polyline> => poli linha.
+<path> => formas livres.
+<filter> => filtros.
+
+__ATRIBUTOS (PATH)__
+
+M = move até
+
+L = linha até
+
+H = linha horizontal até
+
+V = linha vertical até
+
+C = curva até
+
+S = curva suave até
+
+Q = curva de Bézier
+
+T = curva de Bézier suave
+
+A = arco elíptico
+
+Z = fecha path

@@ -2,9 +2,8 @@
   "name": "hn-rcalc-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,10 @@
   },
   "homepage": "https://github.com/Humba01/HN-RCalc-Site#readme",
   "devDependencies": {
-    "express": "^4.17.1"
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

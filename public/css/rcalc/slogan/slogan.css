@@ -1,0 +1,50 @@
+@keyframes slogan_animation {
+  0% {
+    color: #00ff99;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 2ms;
+    transition-duration: 500ms;
+    font-weight: 800;
+
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left-style: double;
+    border-left-color: #00ff99;
+    border-right-style: double;
+    border-right-color: #00ff99;
+  }
+  95% {
+    border-width: 6px;
+  }
+  100% {
+    color: #454545;
+    border: none;
+    font-weight: 100;
+  }
+}
+
+.rcalc_slogan {
+  text-align: center;
+  margin-bottom: 2.8vw;
+  margin-top: 4vw;
+}
+
+.rcalc_text_slogan {
+  display: inline-block;
+  font-size: 54px;
+  font-family: "Ubuntu-Light";
+  color: #454545;
+  padding: 0.4vw 0.6vw;
+
+  animation-name: slogan_animation;
+  animation-delay: 2ms;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
