@@ -8,9 +8,9 @@ setTimeout(function() {
     window.scrollTo(0, scrollY);
 }, 80);
 
-setTimeout(function() {
-    window.scrollTo(scrollX, 0);
-}, 300);
+// setTimeout(function() {
+//     window.scrollTo(scrollX, 0);
+// }, 300);
 
 // Configurações do menu principal e da barra de menu
 

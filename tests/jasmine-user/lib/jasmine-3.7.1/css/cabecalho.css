@@ -1,0 +1,18 @@
+.cabecalho_cont {
+    display: inline-block;
+    color: #ffffff;
+    margin-top: -2.4vw;
+    margin-bottom: -3vw;
+}
+
+.cabecalho_titulo {
+    background-color: #222;
+    display: inline-block;
+    font-family: "Ubuntu-Light";
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0.4vw 0.6vw;
+    width: 96.2vw;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}

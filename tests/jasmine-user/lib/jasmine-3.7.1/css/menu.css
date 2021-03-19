@@ -1,0 +1,15 @@
+.navegation_conteiner {
+  display: inline-block;
+}
+
+.navegation_item {
+  padding: 0.4vw 0.4vw;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  display: inline-block;
+  background-color: #444444;
+  font-family: "Baumans-Regular";
+  color: #ffffff;
+  font-size: 22px;
+  border-bottom: #ffffff 2px solid;
+}

@@ -1,9 +1,12 @@
 {
   "name": "hn-rcalc-site",
   "version": "1.0.0",
+  "main": "index.js",
   "description": "",
   "scripts": {
-    "server": "webpack serve"
+    "server-webpack": "webpack serve",
+    "server-gulp": "gulp server",
+    "server-test-gulp": "gulp testServer"
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,20 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-devserver": "^0.6.4",
+    "less": "^4.1.1",
+    "less-cli": "^1.0.0",
+    "marko": "^5.3.0",
+    "sass": "^1.32.8",
+    "scss": "^0.2.4",
+    "scss-cli": "0.0.6",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
   }
 }

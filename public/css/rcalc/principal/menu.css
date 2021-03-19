@@ -15,12 +15,13 @@
 
 .menu_conteiner {
   display: none;
+  position: fixed;
+
   font-family: 'Ubuntu-Light';
   color: #eeeeee;
   font-weight: 800;
   padding: 0.4vw 0.3vw;
   font-size: 26px;
-  position: fixed;
   margin-top: -1.9vw;
   background-color: #000000;
   align-content: flex-end;
