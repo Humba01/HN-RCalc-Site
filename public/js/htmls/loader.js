@@ -66,7 +66,11 @@ const textContents = {
         'Logarítmo de Base Qualquer',
         'Logarítmo Natural',
         'Logarítmo Natural mais Um',
-        'Logarítmo Natural mais Qualquer Valor'
+        'Logarítmo Natural mais Um Valor',
+        'Multiplicação de Logarítmos',
+        'Divisão de Logarítmos',
+        'Potenciação de Logarítmos',
+        'Radiciação de Logarítmos'
       ],
       complexas: [
         'Soma de Números Complexos',
@@ -83,9 +87,7 @@ const textContents = {
         'Módulo e argumento'
       ],
       conversoresDeBases: [
-        'Bases Monetárias',
         'Bases Techno',
-        'Bases Techno Computacionais',
         'Bases Math de Ângulo Comum',
         'Bases Math de Ângulo Plano',
         'Bases Math de Ângulo Sólido',
@@ -123,6 +125,8 @@ const textContents = {
         'Bases Chemical de Massa Específica'
       ],
       formulasMatematicas: [
+        'Regra de Três Simples',
+        'Regra de Três Composta',
         'Função do 1º Grau',
         'Função do 2º Grau (Bhaskara)',
         'Função do 2º Grau (Covencional)',
@@ -131,10 +135,6 @@ const textContents = {
         'Função Biquadrática',
         'Sistema de Funções',
         'Sistemas Lineares',
-        'Regra de Três Simples (Manual)',
-        'Regra de Três Simples (Automático)',
-        'Regra de Três Composta (Manual)',
-        'Regra de Três Composta (Automático)',
         'Soma de Matrizes',
         'Subtração de Matrizes',
         'Multiplicação de Matrizes',
@@ -304,26 +304,18 @@ const textContents = {
         'Moedas do Passado'
       ],
       formulasDeTransformacao: [
-        'Retirando o 0 de um Número',
-        'Retirando o 1 de um Número',
-        'Retirando o 2 de um Número',
-        'Retirando o 3 de um Número',
-        'Retirando o 4 de um Número',
-        'Retirando o 5 de um Número',
-        'Retirando o 6 de um Número',
-        'Retirando o 7 de um Número',
-        'Retirando o 8 de um Número',
-        'Retirando o 9 de um Número',
-        'Transformação de 1 Algarismo',
-        'Transformação de 2 Algarismos',
-        'Transformação de 3 Algarismos',
-        'Transformação de 4 Algarismos',
-        'Transformação de 5 Algarismos',
-        'Transformação de 6 Algarismos',
-        'Transformação de 7 Algarismos',
-        'Transformação de 8 Algarismos',
-        'Transformação de 9 Algarismos',
-        'Transformação de 10 Algarismos',
+        'Transformação de Decimal em Binário',
+        'Transformação de Decimal em Octadecimal',
+        'Transformação de Decimal em Hexadecimal',
+        'Transformação de Octadecimal em Binário',
+        'Transformação de Octadecimal em Decimal',
+        'Transformação de Octadecimal em Hexadecimal',
+        'Transformação de Hexadecimal em Binário',
+        'Transformação de Hexadecimal em Decimal',
+        'Transformação de Hexadecimal em Octadecimal',
+        'Transformação de Binário em Decimal',
+        'Transformação de Binário em Octadecimal',
+        'Transformação de Binário em Hexadecimal'
       ],
       formulasDeDemonstracao: [
         'Valor do PI',

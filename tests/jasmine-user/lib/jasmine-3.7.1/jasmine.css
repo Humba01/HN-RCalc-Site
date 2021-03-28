@@ -23,7 +23,7 @@ body { overflow-y: scroll; }
 
 .jasmine_html-reporter .jasmine-banner { margin-top: 14px; }
 
-.jasmine_html-reporter .jasmine-duration { color: #fff; float: right; line-height: 28px; padding-right: 9px; }
+.jasmine_html-reporter .jasmine-duration { color: #fff; float: right; line-height: 28px; padding-right: 9px; font-weight: 800;}
 
 .jasmine_html-reporter .jasmine-symbol-summary { overflow: hidden; margin: 14px 0; }
 
@@ -59,7 +59,7 @@ body { overflow-y: scroll; }
 
 .jasmine_html-reporter .jasmine-run-options .jasmine-payload.jasmine-open { display: block; }
 
-.jasmine_html-reporter .jasmine-bar { line-height: 28px; font-size: 14px; display: block; color: #eee; }
+.jasmine_html-reporter .jasmine-bar { line-height: 28px; font-size: 14px; display: block; color: #eee; font-weight: 800;}
 
 .jasmine_html-reporter .jasmine-bar.jasmine-failed, .jasmine_html-reporter .jasmine-bar.jasmine-errored { background-color: #ca3a11; border-bottom: 1px solid #eee; }
 
@@ -85,7 +85,7 @@ body { overflow-y: scroll; }
 
 .jasmine_html-reporter .jasmine-summary { margin-top: 14px; }
 
-.jasmine_html-reporter .jasmine-summary ul { list-style-type: none; margin-left: 14px; padding-top: 0; padding-left: 0; }
+.jasmine_html-reporter .jasmine-summary ul { list-style-type: none; margin-left: 14px; padding-top: 0; padding-left: 0; font-weight: 610;}
 
 .jasmine_html-reporter .jasmine-summary ul.jasmine-suite { margin-top: 7px; margin-bottom: 7px; }
 
@@ -129,7 +129,7 @@ body { overflow-y: scroll; }
 
 /* Modificações */
 .jasmine-results {
-  background-color: #333333;
+  background-color: #2229;
   padding-top: 0.6vw;
   padding-bottom: 0.6vw;
   margin-top: 0;

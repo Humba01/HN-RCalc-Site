@@ -89,9 +89,11 @@ jasmineRequire.HtmlReporter = function(j$) {
 
     this.initialize = function() {
       clearPrior();
-      htmlReporterMain = createDom(
-        'div',
-        { className: 'jasmine_html-reporter' },
+      htmlReporterMain = createDom('div', { 
+          className: 'jasmine_html-reporter', 
+          id: "jasmine_body",
+          style: "display: block"
+        },
         createDom(
           'div',
           { className: 'jasmine-banner' },
