@@ -7,10 +7,11 @@ var gulp = require('gulp'),
 
 gulp.task('server', function() {
 
-  gulp.src('./public')
+  gulp.src('./public/')
   .pipe(devServer({
       port: 3001,
       livereload: {
+        port: 30001,
         clientConsole: true
       },
       proxy: {
@@ -23,10 +24,11 @@ gulp.task('server', function() {
 
 gulp.task('testServer', function() {
 
-  gulp.src('./tests')
+  gulp.src('./tests/')
   .pipe(devServer({
       port: 5001,
       livereload: {
+        port: 50001,
         clientConsole: true
       },
       proxy: {

@@ -2138,6 +2138,10 @@ class Modules {
         v3: 0
     };
 
+    let varsEnfileiradas = [];
+
+    varsEnfileiradas.push(vars.a, vars.b, vars.c, vars.d, vars.e, vars.f, vars.g, vars.h, vars.i, vars.j, vars.k, vars.l, vars.m, vars.n, vars.o, vars.p, vars.q, vars.r, vars.s, vars.t, vars.u, vars.v, vars.w, vars.x, vars.y, vars.z, vars.a1, vars.b1, vars.c1, vars.d1, vars.e1, vars.f1, vars.g1, vars.h1, vars.i1, vars.j1, vars.k1, vars.l1, vars.m1, vars.n1, vars.o1, vars.p1, vars.q1, vars.r1, vars.s1, vars.t1, vars.u1, vars.v1, vars.w1, vars.x1, vars.y1, vars.z1, vars.a2, vars.b2, vars.c2, vars.d2, vars.e2, vars.f2, vars.g2, vars.h2, vars.i2, vars.j2, vars.k2, vars.l2, vars.m2, vars.n2, vars.o2, vars.p2, vars.q2, vars.r2, vars.s2, vars.t2, vars.u2, vars.v2, vars.w2, vars.x2, vars.y2, vars.z2, vars.a3, vars.b3, vars.c3, vars.d3, vars.e3, vars.f3, vars.g3, vars.h3, vars.i3, vars.j3, vars.k3, vars.l3, vars.m3, vars.n3, vars.o3, vars.p3, vars.q3, vars.r3, vars.s3, vars.t3, vars.u3, vars.v3);
+
     function empurraUmValorALista(array=[0]) {
       numerosNormais.push(Math.random() * 100);
     }
@@ -2195,4520 +2199,183 @@ class Modules {
     }
 
     if(numeroVariaveis >= 1 && autoInputNumerosNaturais == true) {
-      switch(numeroVariaveis) {
-        case 1:
-          if(numerosNormais.length < 1) {
-            empurraTresValoresALista(numerosNormais);
-          }
-          if(numerosNormais.length < 2) {
-            empurraDoisValoresALista(numerosNormais);
-          }
-          if(numerosNormais.length < 3) {
-            empurraUmValorALista(numerosNormais);
-          }
-          break;
-        case 2:
-          if(numerosNormais.length < 4) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 5) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 6) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 3:
-          if(numerosNormais.length < 7) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 8) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 9) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 4:
-          if(numerosNormais.length < 10) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 11) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 12) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 5:
-          if(numerosNormais.length < 13) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 14) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 15) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 6:
-          if(numerosNormais.length < 16) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 17) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 18) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 7:
-          if(numerosNormais.length < 19) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 20) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 21) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 8:
-          if (numerosNormais.length < 22) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if (numerosNormais.length < 23) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if (numerosNormais.length < 24) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 9:
-          if(numerosNormais.length < 25) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 26) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 27) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 10:
-          if(numerosNormais.length < 28) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 29) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 30) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 11:
-          if(numerosNormais.length < 31) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 32) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 33) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 12:
-          if(numerosNormais.length < 34) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 35) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 36) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 13:
-          if (numerosNormais.length < 37) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if (numerosNormais.length < 38) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if (numerosNormais.length < 39) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 14:
-          if(numerosNormais.length < 40) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 41) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 42) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 15:
-          if(numerosNormais.length < 43) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 44) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 45) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 16:
-          if(numerosNormais.length < 46) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 47) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 48) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 17:
-          if(numerosNormais.length < 49) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 50) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 51) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 18:
-          if(numerosNormais.length < 52) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 53) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 54) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-        case 19:
-          if(numerosNormais.length < 55) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 56) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 57) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 20:
-          if(numerosNormais.length < 58) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 59) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 60) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 21:
-          if(numerosNormais.length < 61) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 62) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 63) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 22:
-          if(numerosNormais.length < 64) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 65) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 66) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 23:
-          if(numerosNormais.length < 67) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 68) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 69) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 24:
-          if(numerosNormais.length < 70) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 71) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 72) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 25:
-          if(numerosNormais.length < 73) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 74) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 75) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 26:
-          if(numerosNormais.length < 76) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 77) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 78) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 27:
-          if(numerosNormais.length < 79) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 80) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 81) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 28:
-          if(numerosNormais.length < 82) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 83) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 84) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 29:
-          if(numerosNormais.length < 85) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 86) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 87) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 30:
-          if(numerosNormais.length < 88) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 89) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 90) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 31:
-          if(numerosNormais.length < 91) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 92) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 93) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 32:
-          if(numerosNormais.length < 94) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 95) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 96) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 33:
-          if(numerosNormais.length < 97) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 98) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 99) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 34:
-          if(numerosNormais.length < 100) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 101) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 102) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 35:
-          if (numerosNormais.length < 103) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if (numerosNormais.length < 104) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if (numerosNormais.length < 105) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 36:
-          if(numerosNormais.length < 106) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 107) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 108) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 37:
-          if(numerosNormais.length < 109) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 110) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 111) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 38:
-          if(numerosNormais.length < 112) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 113) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 114) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 39:
-          if(numerosNormais.length < 115) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 116) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 117) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 40:
-          if(numerosNormais.length < 118) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 119) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 120) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 41:
-          if(numerosNormais.length < 121) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 122) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 123) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 42:
-          if(numerosNormais.length < 124) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 125) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 126) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 43:
-          if(numerosNormais.length < 127) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 128) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 129) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 44:
-          if(numerosNormais.length < 130) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 131) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 132) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 45:
-          if(numerosNormais.length < 133) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 134) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 135) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 46:
-          if(numerosNormais.length < 136) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 137) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 138) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 47:
-          if(numerosNormais.length < 139) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 140) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 141) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 48:
-          if(numerosNormais.length < 142) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 143) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 144) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 49:
-          if(numerosNormais.length < 145) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 146) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 147) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 50:
-          if(numerosNormais.length < 148) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 149) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 150) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 51:
-          if(numerosNormais.length < 151) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 152) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 153) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 52:
-          if(numerosNormais.length < 154) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 155) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 156) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 53:
-          if(numerosNormais.length < 157) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 158) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 159) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 54:
-          if(numerosNormais.length < 160) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 161) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 162) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 55:
-          if(numerosNormais.length < 163) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 164) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 166) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 56:
-          if(numerosNormais.length < 167) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 168) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 169) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 57:
-          if(numerosNormais.length < 170) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 171) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 172) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 58:
-          if(numerosNormais.length < 173) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 174) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 175) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 59:
-          if(numerosNormais.length < 176) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 177) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 178) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 60:
-          if(numerosNormais.length < 179) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 180) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 181) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 61:
-          if(numerosNormais.length < 182) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 183) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 184) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 62:
-          if(numerosNormais.length < 185) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 186) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 187) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 63:
-          if(numerosNormais.length < 188) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 189) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 190) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 64:
-          if(numerosNormais.length < 191) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 192) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 193) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 65:
-          if(numerosNormais.length < 194) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 195) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 196) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 66:
-          if(numerosNormais.length < 197) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 198) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 199) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 67:
-          if(numerosNormais.length < 200) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 201) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 202) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 68:
-          if(numerosNormais.length < 203) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 204) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 205) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 69:
-          if(numerosNormais.length < 206) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 207) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 208) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 70:
-          if(numerosNormais.length < 209) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 210) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 211) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 71:
-          if(numerosNormais.length < 212) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 213) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 214) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 72:
-          if(numerosNormais.length < 215) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 216) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 217) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 73:
-          if(numerosNormais.length < 218) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 219) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 220) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 74:
-          if(numerosNormais.length < 221) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 222) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 223) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 75:
-          if(numerosNormais.length < 224) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 225) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 226) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 76:
-          if(numerosNormais.length < 227) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 228) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 229) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 77:
-          if(numerosNormais.length < 230) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 231) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 232) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 78:
-          if(numerosNormais.length < 233) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 234) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 235) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 79:
-          if(numerosNormais.length < 236) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 237) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 238) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 80:
-          if(numerosNormais.length < 239) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 240) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 241) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 81:
-          if(numerosNormais.length < 242) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 243) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 244) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 82:
-          if(numerosNormais.length < 245) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 246) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 247) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 83:
-          if(numerosNormais.length < 248) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 249) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 250) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 84:
-          if(numerosNormais.length < 251) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 252) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 253) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 85:
-          if(numerosNormais.length < 254) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 255) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 256) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 86:
-          if(numerosNormais.length < 257) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 258) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 259) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 87:
-          if(numerosNormais.length < 260) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 261) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 262) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 88:
-          if(numerosNormais.length < 263) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 264) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 265) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 89:
-          if(numerosNormais.length < 266) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 267) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 268) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 90:
-          if(numerosNormais.length < 269) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 270) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 271) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 91:
-          if(numerosNormais.length < 272) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 273) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 274) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 92:
-          if(numerosNormais.length < 275) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 276) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 277) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 93:
-          if(numerosNormais.length < 278) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 279) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 280) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 94:
-          if(numerosNormais.length < 281) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 282) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 283) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 95:
-          if(numerosNormais.length < 284) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 285) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 286) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 96:
-          if(numerosNormais.length < 287) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 288) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 289) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 97:
-          if(numerosNormais.length < 290) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 291) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 292) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 98:
-          if(numerosNormais.length < 293) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 294) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 295) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 99:
-          if(numerosNormais.length < 296) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 297) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 298) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
-        case 100:
-          if(numerosNormais.length < 299) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraTresValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 300) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraDoisValoresALista(numerosNormais);
-            }
-          }
-          if(numerosNormais.length < 301) {
-            for(let i = 0; i < numeroVariaveis; i++) {
-              empurraUmValorALista(numerosNormais);
-            }
-          }
-          break;
+
+      for (let v = 1, var1 = 1, var2 = 2, var3 = 3; v <= numeroVariaveis; v++, var1=var1+3, var2=var2+3, var3=var3+3) {
+
+        switch (numeroVariaveis) {
+          case v:
+            if(numerosNormais.length < var1) { for(let w = 0; w < v; w++) { empurraTresValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var2) { for(let w = 0; w < v; w++) { empurraDoisValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var3) { for(let w = 0; w < v; w++) { empurraUmValorALista(numerosNormais); } }
+            break;
+
+        }
       }
+
+    }
+
+    if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 3 && autoInputNumerosNaturais == true) {
+
+      for (let v = 1, var1 = 1, var2 = 2, var3 = 3, var4 = 4, var5 = 5; v <= numeroVariaveis; v++, var1=var1+5, var2=var2+5, var3=var3+5, var4=var4+5, var5=var5+5) {
+
+        switch (numeroVariaveis) {
+          case v:
+            if(numerosNormais.length < var1) { for(let w = 0; w < v; w++) { empurraCincoValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var2) { for(let w = 0; w < v; w++) { empurraQuatroValoresALista(numerosNormais); } }
+            
+            if(numerosNormais.length < var3) { for(let w = 0; w < v; w++) { empurraTresValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var4) { for(let w = 0; w < v; w++) { empurraDoisValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var5) { for(let w = 0; w < v; w++) { empurraUmValorALista(numerosNormais); } }
+            break;
+        }
+      }
+
+    }
+
+    if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 4 && autoInputNumerosNaturais == true) {
+
+      for (let v = 1, var1 = 1, var2 = 2, var3 = 3, var4 = 4, var5 = 5, var6 = 6, var7 = 7; v <= numeroVariaveis; v++, var1=var1+7, var2=var2+7, var3=var3+7, var4=var4+7, var5=var5+7, var6=var6+7, var7=var7+7) {
+
+        switch (numeroVariaveis) {
+          case v:
+            if(numerosNormais.length < var1) { for(let w = 0; w < v; w++) { empurraSeteValoresALista(numerosNormais); } }
+            
+            if(numerosNormais.length < var2) { for(let w = 0; w < v; w++) { empurraSeisValoresALista(numerosNormais); } }
+            
+            if(numerosNormais.length < var3) { for(let w = 0; w < v; w++) { empurraCincoValoresALista(numerosNormais); } }
+            
+            if(numerosNormais.length < var4) { for(let w = 0; w < v; w++) { empurraQuatroValoresALista(numerosNormais); } }
+            
+            if(numerosNormais.length < var5) { for(let w = 0; w < v; w++) { empurraTresValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var6) { for(let w = 0; w < v; w++) { empurraDoisValoresALista(numerosNormais); } }
+
+            if(numerosNormais.length < var7) { for(let w = 0; w < v; w++) { empurraUmValorALista(numerosNormais); } }
+            break;
+        }
+      }
+
     }
 
     for (let i = 0; i < numeroVariaveis; i++) {
 
-      // mexer aqui ==> acabar aqui depois de finalizar todos os módulos
-      if(numeroVariaveis >= 1 && autoInputNumerosNaturais == true) {}
-      if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 3) {}
-      if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 3 && autoInputNumerosNaturais == true) {}
-      if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 4) {}
-      if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 4 && autoInputNumerosNaturais == true) {}
+      // mexer aqui
+      if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 3) {
+        // modelo: // v1 = v2 * v3 // v4 = x * v5 
+
+        for(let v = 0, ft = 5, var1 = 0, var2 = 1, var3 = 2, var4 = 3, var5 = 4; v < numeroVariaveis; v++, ft=ft+5, var1=var1+5, var2=var2+5, var3=var3+5, var4=var4+5, var5=var5+5) {
+
+          switch (i) {
+            case v:
+              if (numerosNormais.length < ft && autoInputNumerosNaturais == false) {
+                if (numerosNormais[var1] == 0 || numerosNormais[var2] == 0 || numerosNormais[var3] == 0 || numerosNormais[var4] == 0 || numerosNormais[var5] == 0 || isNaN(numerosNormais[var1]) == true || isNaN(numerosNormais[var2]) == true || isNaN(numerosNormais[var3]) == true || isNaN(numerosNormais[var4]) == true || isNaN(numerosNormais[var5]) == true) { return (resultado[1] = 0); }
+                return (resultado[1] = 0, console.error("Números Normais Insuficientes!, Tente Novamente."));
+              }
+  
+              varsEnfileiradas[v] = ((numerosNormais[var4] * numerosNormais[var2] * numerosNormais[var3]) / numerosNormais[var1]) / numerosNormais[var5];
+  
+              if (isNaN(varsEnfileiradas[v]) == true) {
+                return resultado[0].push(0);
+              }
+  
+              switch (varsEnfileiradas[v]) {
+                case null:
+                  varsEnfileiradas[v] = 0;
+                  break;
+                case Infinity:
+                  varsEnfileiradas[v] = 0;
+                  break;
+                case -Infinity:
+                  varsEnfileiradas[v] = 0;
+                  break;
+              }
+  
+              somaVariaveis = somaVariaveis + varsEnfileiradas[v];
+              resultado[0].push(varsEnfileiradas[v]);
+              resultado[1] = somaVariaveis;
+              break;
+          }
+        }
+      } else if(numeroVariaveis >= 1 && usarMaisGrandezas == true && numeroDeGrandezas == 4) {
+
+        // modelo: // v1 = v2 * v3 * v4 // v5 = x * v6 * v7
+        
+        for(let v = 0, ft = 5, var1 = 0, var2 = 1, var3 = 2, var4 = 3, var5 = 4, var6 = 5, var7 = 6; v < numeroVariaveis; v++, ft=ft+7, var1=var1+7, var2=var2+7, var3=var3+7, var4=var4+7, var5=var5+7, var6=var6+7, var7=var7+7) {
+
+          switch (i) {
+            case v:
+              if (numerosNormais.length < ft && autoInputNumerosNaturais == false) {
+                if (numerosNormais[var1] == 0 || numerosNormais[var2] == 0 || numerosNormais[var3] == 0 || numerosNormais[var4] == 0 || numerosNormais[var5] == 0 || numerosNormais[var6] == 0 || numerosNormais[var7] == 0 || isNaN(numerosNormais[var1]) == true || isNaN(numerosNormais[var2]) == true || isNaN(numerosNormais[var3]) == true || isNaN(numerosNormais[var4]) == true || isNaN(numerosNormais[var5]) == true || isNaN(numerosNormais[var6]) == true || isNaN(numerosNormais[var7]) == true) { return (resultado[1] = 0); }
+                return (resultado[1] = 0, console.error("Números Normais Insuficientes!, Tente Novamente."));
+              }
+  
+              varsEnfileiradas[v] = ((numerosNormais[var5] * numerosNormais[var2] * numerosNormais[var3] * numerosNormais[var4]) / numerosNormais[var1]) / numerosNormais[var6] * numerosNormais[var7];
+  
+              if (isNaN(varsEnfileiradas[v]) == true) {
+                return resultado[0].push(0);
+              }
+  
+              switch (varsEnfileiradas[v]) {
+                case null:
+                  varsEnfileiradas[v] = 0;
+                  break;
+                case Infinity:
+                  varsEnfileiradas[v] = 0;
+                  break;
+                case -Infinity:
+                  varsEnfileiradas[v] = 0;
+                  break;
+              }
+  
+              somaVariaveis = somaVariaveis + varsEnfileiradas[v];
+              resultado[0].push(varsEnfileiradas[v]);
+              resultado[1] = somaVariaveis;
+              break;
+          }
+        }
+      } else {
+
+        for (let v = 0, ft = 3, var1 = 0, var2 = 1, var3 = 2; v < numeroVariaveis; v++, ft=ft+3, var1=var1+3, var2=var2+3, var3=var3+3) {
+
+          // modelo  // v1 * v2 // v3 * x
+
+          switch (i) {
+            case v:
+              if (numerosNormais.length < ft && autoInputNumerosNaturais == false) {
+                if (numerosNormais[var1] == 0 || numerosNormais[var2] == 0 || numerosNormais[var3] == 0 || isNaN(numerosNormais[var1]) == true || isNaN(numerosNormais[var2]) == true || isNaN(numerosNormais[var3]) == true) { return (resultado[1] = 0); }
+                return (resultado[1] = 0, console.error("Números Normais Insuficientes!, Tente Novamente."));
+              }
+
+              varsEnfileiradas[v] = (numerosNormais[var1] * numerosNormais[var2]) / numerosNormais[var3];
+
+              if (isNaN(varsEnfileiradas[v]) == true) {
+                return resultado[0].push(0);
+              }
+
+              switch (varsEnfileiradas[v]) {
+                case null:
+                  varsEnfileiradas[v] = 0;
+                  break;
+                case Infinity:
+                  varsEnfileiradas[v] = 0;
+                  break;
+                case -Infinity:
+                  varsEnfileiradas[v] = 0;
+                  break;
+              }
+
+              somaVariaveis = somaVariaveis + varsEnfileiradas[v];
+              resultado[0].push(varsEnfileiradas[v]);
+              resultado[1] = somaVariaveis;
+              break;
+          }
+        }
 
-      switch (i) {
-        // Padrão de Sincronia 1
-        case 0:
-            if (numerosNormais.length < 3 && autoInputNumerosNaturais == false) {
-              if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.a = numerosNormais[i] * numerosNormais[i + 1] / numerosNormais[i + 2];
-            
-            if(isNaN(vars.a) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.a) {
-              case null:
-                vars.a = 0;
-                break;
-              case Infinity:
-                vars.a = 0;
-                break;
-              case -Infinity:
-                vars.a = 0;
-                break;
-            }
-
-            somaVariaveis = somaVariaveis + vars.a;
-            resultado[0].push(vars.a);  
-            resultado[1] = somaVariaveis;
-            break;
-        // Padrão de Sincronia 2
-        case 1:
-            if (numerosNormais.length < 6 && autoInputNumerosNaturais == false) {
-              if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.b = numerosNormais[i + 2] * numerosNormais[i + 3] / numerosNormais[i + 4];
-            
-            if(isNaN(vars.b) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.b) {
-              case null:
-                vars.b = 0;
-                break;
-              case Infinity:
-                vars.b = 0;
-                break;
-              case -Infinity:
-                vars.b = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.b;
-            resultado[0].push(vars.b);
-            resultado[1] = somaVariaveis;
-            break;
-        case 2:
-            if (numerosNormais.length < 9 && autoInputNumerosNaturais == false) {
-              if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.c = numerosNormais[i + 4] * numerosNormais[i + 5] / numerosNormais[i + 6];
-            
-            if(isNaN(vars.c) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.c) {
-              case null:
-                vars.c = 0;
-                break;
-              case Infinity:
-                vars.c = 0;
-                break;
-              case -Infinity:
-                vars.c = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.c;
-            resultado[0].push(vars.c);
-            resultado[1] = somaVariaveis;
-            break;
-        case 3:
-            if (numerosNormais.length < 12 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.d = numerosNormais[i + 6] * numerosNormais[i + 7] / numerosNormais[i + 8];
-            
-            if(isNaN(vars.d) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.d) {
-              case null:
-                vars.d = 0;
-                break;
-              case Infinity:
-                vars.d = 0;
-                break;
-              case -Infinity:
-                vars.d = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.d;
-            resultado[0].push(vars.d);
-            resultado[1] = somaVariaveis;
-            break;
-        case 4:
-            if (numerosNormais.length < 15 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.e = numerosNormais[i + 8] * numerosNormais[i + 9] / numerosNormais[i + 10];
-            
-            if(isNaN(vars.e) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.e) {
-              case null:
-                vars.e = 0;
-                break;
-              case Infinity:
-                vars.e = 0;
-                break;
-              case -Infinity:
-                vars.e = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.e;
-            resultado[0].push(vars.e);
-            resultado[1] = somaVariaveis;
-            break;
-        case 5:
-            if (numerosNormais.length < 18 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.f = numerosNormais[i + 10] * numerosNormais[i + 11] / numerosNormais[i + 12];
-            
-            if(isNaN(vars.f) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.f) {
-              case null:
-                vars.f = 0;
-                break;
-              case Infinity:
-                vars.f = 0;
-                break;
-              case -Infinity:
-                vars.f = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.f;
-            resultado[0].push(vars.f);
-            resultado[1] = somaVariaveis;
-            break;
-        case 6:
-            if (numerosNormais.length < 21 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.g = numerosNormais[i + 12] * numerosNormais[i + 13] / numerosNormais[i + 14];
-            
-            if(isNaN(vars.g) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.g) {
-              case null:
-                vars.g = 0;
-                break;
-              case Infinity:
-                vars.g = 0;
-                break;
-              case -Infinity:
-                vars.g = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.g;
-            resultado[0].push(vars.g);
-            resultado[1] = somaVariaveis;
-            break;
-        case 7:
-            if (numerosNormais.length < 24 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.h = numerosNormais[i + 14] * numerosNormais[i + 15] / numerosNormais[i + 16];
-            
-            if(isNaN(vars.h) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.h) {
-              case null:
-                vars.h = 0;
-                break;
-              case Infinity:
-                vars.h = 0;
-                break;
-              case -Infinity:
-                vars.h = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.h;
-            resultado[0].push(vars.h);
-            resultado[1] = somaVariaveis;
-            break;
-        case 8:
-            if (numerosNormais.length < 27 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.i = numerosNormais[i + 16] * numerosNormais[i + 17] / numerosNormais[i + 18];
-            
-            if(isNaN(vars.i) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.i) {
-              case null:
-                vars.i = 0;
-                break;
-              case Infinity:
-                vars.i = 0;
-                break;
-              case -Infinity:
-                vars.i = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.i;
-            resultado[0].push(vars.i);
-            resultado[1] = somaVariaveis;
-            break;
-        case 9:
-            if (numerosNormais.length < 30 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.j = numerosNormais[i + 18] * numerosNormais[i + 19] / numerosNormais[i + 20];
-            
-            if(isNaN(vars.j) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.j) {
-              case null:
-                vars.j = 0;
-                break;
-              case Infinity:
-                vars.j = 0;
-                break;
-              case -Infinity:
-                vars.j = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.j;
-            resultado[0].push(vars.j);
-            resultado[1] = somaVariaveis;
-            break;
-        case 10:
-            if (numerosNormais.length < 33 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.k = numerosNormais[i + 20] * numerosNormais[i + 21] / numerosNormais[i + 22];
-            
-            if(isNaN(vars.k) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.k) {
-              case null:
-                vars.k = 0;
-                break;
-              case Infinity:
-                vars.k = 0;
-                break;
-              case -Infinity:
-                vars.k = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.k;
-            resultado[0].push(vars.k);
-            resultado[1] = somaVariaveis;
-            break;
-        case 11:
-            if (numerosNormais.length < 36 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.l = numerosNormais[i + 22] * numerosNormais[i + 23] / numerosNormais[i + 24];
-            
-            if(isNaN(vars.l) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.l) {
-              case null:
-                vars.l = 0;
-                break;
-              case Infinity:
-                vars.l = 0;
-                break;
-              case -Infinity:
-                vars.l = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.l;
-            resultado[0].push(vars.l);
-            resultado[1] = somaVariaveis;
-            break;
-        case 12:
-            if (numerosNormais.length < 39 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.m = numerosNormais[i + 24] * numerosNormais[i + 25] / numerosNormais[i + 26];
-            
-            if(isNaN(vars.m) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.m) {
-              case null:
-                vars.m = 0;
-                break;
-              case Infinity:
-                vars.m = 0;
-                break;
-              case -Infinity:
-                vars.m = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.m;
-            resultado[0].push(vars.m);
-            resultado[1] = somaVariaveis;
-            break;
-        case 13:
-            if (numerosNormais.length < 42 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.n = numerosNormais[i + 26] * numerosNormais[i + 27] / numerosNormais[i + 28];
-            
-            if(isNaN(vars.n) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.n) {
-              case null:
-                vars.n = 0;
-                break;
-              case Infinity:
-                vars.n = 0;
-                break;
-              case -Infinity:
-                vars.n = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.n;
-            resultado[0].push(vars.n);
-            resultado[1] = somaVariaveis;
-            break;
-        case 14:
-            if (numerosNormais.length < 45 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.o = numerosNormais[i + 28] * numerosNormais[i + 29] / numerosNormais[i + 30];
-            
-            if(isNaN(vars.o) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.o) {
-              case null:
-                vars.o = 0;
-                break;
-              case Infinity:
-                vars.o = 0;
-                break;
-              case -Infinity:
-                vars.o = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.o;
-            resultado[0].push(vars.o);
-            resultado[1] = somaVariaveis;
-            break;
-        case 15:
-            if (numerosNormais.length < 48 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.p = numerosNormais[i + 30] * numerosNormais[i + 31] / numerosNormais[i + 32];
-            
-            if(isNaN(vars.p) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.p) {
-              case null:
-                vars.p = 0;
-                break;
-              case Infinity:
-                vars.p = 0;
-                break;
-              case -Infinity:
-                vars.p = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.p;
-            resultado[0].push(vars.p);
-            resultado[1] = somaVariaveis;
-            break;
-        case 16:
-            if (numerosNormais.length < 51 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.q = numerosNormais[i + 32] * numerosNormais[i + 33] / numerosNormais[i + 34];
-            
-            if(isNaN(vars.q) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.q) {
-              case null:
-                vars.q = 0;
-                break;
-              case Infinity:
-                vars.q = 0;
-                break;
-              case -Infinity:
-                vars.q = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.q;
-            resultado[0].push(vars.q);
-            resultado[1] = somaVariaveis;
-            break;
-        case 17:
-            if (numerosNormais.length < 54 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.r = numerosNormais[i + 34] * numerosNormais[i + 35] / numerosNormais[i + 36];
-            
-            if(isNaN(vars.r) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.r) {
-              case null:
-                vars.r = 0;
-                break;
-              case Infinity:
-                vars.r = 0;
-                break;
-              case -Infinity:
-                vars.r = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.r;
-            resultado[0].push(vars.r);
-            resultado[1] = somaVariaveis;
-            break;
-        case 18:
-            if (numerosNormais.length < 57 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.s = numerosNormais[i + 36] * numerosNormais[i + 37] / numerosNormais[i + 38];
-            
-            if(isNaN(vars.s) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.s) {
-              case null:
-                vars.s = 0;
-                break;
-              case Infinity:
-                vars.s = 0;
-                break;
-              case -Infinity:
-                vars.s = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.s;
-            resultado[0].push(vars.s);
-            resultado[1] = somaVariaveis;
-            break;
-        case 19:
-            if (numerosNormais.length < 60 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.t = numerosNormais[i + 38] * numerosNormais[i + 39] / numerosNormais[i + 40];
-            
-            if(isNaN(vars.t) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.t) {
-              case null:
-                vars.t = 0;
-                break;
-              case Infinity:
-                vars.t = 0;
-                break;
-              case -Infinity:
-                vars.t = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.t;
-            resultado[0].push(vars.t);
-            resultado[1] = somaVariaveis;
-            break;
-        case 20:
-            if (numerosNormais.length < 63 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.u = numerosNormais[i + 40] * numerosNormais[i + 41] / numerosNormais[i + 42];
-            
-            if(isNaN(vars.u) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.u) {
-              case null:
-                vars.u = 0;
-                break;
-              case Infinity:
-                vars.u = 0;
-                break;
-              case -Infinity:
-                vars.u = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.u;
-            resultado[0].push(vars.u);
-            resultado[1] = somaVariaveis;
-            break;
-        case 21:
-            if (numerosNormais.length < 66 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.v = numerosNormais[i + 42] * numerosNormais[i + 43] / numerosNormais[i + 44];
-            
-            if(isNaN(vars.v) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.v) {
-              case null:
-                vars.v = 0;
-                break;
-              case Infinity:
-                vars.v = 0;
-                break;
-              case -Infinity:
-                vars.v = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.v;
-            resultado[0].push(vars.v);
-            resultado[1] = somaVariaveis;
-            break;
-        case 22:
-            if (numerosNormais.length < 69 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.w = numerosNormais[i + 44] * numerosNormais[i + 45] / numerosNormais[i + 46];
-            
-            if(isNaN(vars.w) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.w) {
-              case null:
-                vars.w = 0;
-                break;
-              case Infinity:
-                vars.w = 0;
-                break;
-              case -Infinity:
-                vars.w = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.w;
-            resultado[0].push(vars.w);
-            resultado[1] = somaVariaveis;
-            break;
-        case 23:
-            if (numerosNormais.length < 72 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.valor = numerosNormais[i + 46] * numerosNormais[i + 47] / numerosNormais[i + 48];
-            
-            if(isNaN(vars.valor) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.valor) {
-              case null:
-                vars.valor = 0;
-                break;
-              case Infinity:
-                vars.valor = 0;
-                break;
-              case -Infinity:
-                vars.valor = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.valor;
-            resultado[0].push(vars.valor);
-            resultado[1] = somaVariaveis;
-            break;
-        case 24:
-            if (numerosNormais.length < 75 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.y = numerosNormais[i + 48] * numerosNormais[i + 49] / numerosNormais[i + 50];
-            
-            if(isNaN(vars.y) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.y) {
-              case null:
-                vars.y = 0;
-                break;
-              case Infinity:
-                vars.y = 0;
-                break;
-              case -Infinity:
-                vars.y = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.y;
-            resultado[0].push(vars.y);
-            resultado[1] = somaVariaveis;
-            break;
-        case 25:
-            if (numerosNormais.length < 78 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.z = numerosNormais[i + 50] * numerosNormais[i + 51] / numerosNormais[i + 52];
-            
-            if(isNaN(vars.z) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.z) {
-              case null:
-                vars.z = 0;
-                break;
-              case Infinity:
-                vars.z = 0;
-                break;
-              case -Infinity:
-                vars.z = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.z;
-            resultado[0].push(vars.z);
-            resultado[1] = somaVariaveis;
-            break;
-        case 26:
-            if (numerosNormais.length < 81 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.a1 = numerosNormais[i + 52] * numerosNormais[i + 53] / numerosNormais[i + 54];
-            
-            if(isNaN(vars.a1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.a1) {
-              case null:
-                vars.a1 = 0;
-                break;
-              case Infinity:
-                vars.a1 = 0;
-                break;
-              case -Infinity:
-                vars.a1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.a1;
-            resultado[0].push(vars.a1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 27:
-            if (numerosNormais.length < 84 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.b1 = numerosNormais[i + 54] * numerosNormais[i + 55] / numerosNormais[i + 56];
-            
-            if(isNaN(vars.b1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.b1) {
-              case null:
-                vars.b1 = 0;
-                break;
-              case Infinity:
-                vars.b1 = 0;
-                break;
-              case -Infinity:
-                vars.b1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.b1;
-            resultado[0].push(vars.b1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 28:
-            if (numerosNormais.length < 87 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.c1 = numerosNormais[i + 56] * numerosNormais[i + 57] / numerosNormais[i + 58];
-            
-            if(isNaN(vars.c1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.c1) {
-              case null:
-                vars.c1 = 0;
-                break;
-              case Infinity:
-                vars.c1 = 0;
-                break;
-              case -Infinity:
-                vars.c1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.c1;
-            resultado[0].push(vars.c1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 29:
-            if (numerosNormais.length < 90 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.d1 = numerosNormais[i + 58] * numerosNormais[i + 59] / numerosNormais[i + 60];
-            
-            if(isNaN(vars.d1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.d1) {
-              case null:
-                vars.d1 = 0;
-                break;
-              case Infinity:
-                vars.d1 = 0;
-                break;
-              case -Infinity:
-                vars.d1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.d1;
-            resultado[0].push(vars.d1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 30:
-            if (numerosNormais.length < 93 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.e1 = numerosNormais[i + 60] * numerosNormais[i + 61] / numerosNormais[i + 62];
-            
-            if(isNaN(vars.e1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.e1) {
-              case null:
-                vars.e1 = 0;
-                break;
-              case Infinity:
-                vars.e1 = 0;
-                break;
-              case -Infinity:
-                vars.e1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.e1;
-            resultado[0].push(vars.e1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 31:
-            if (numerosNormais.length < 96 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.f1 = numerosNormais[i + 62] * numerosNormais[i + 63] / numerosNormais[i + 64];
-            
-            if(isNaN(vars.f1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.f1) {
-              case null:
-                vars.f1 = 0;
-                break;
-              case Infinity:
-                vars.f1 = 0;
-                break;
-              case -Infinity:
-                vars.f1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.f1;
-            resultado[0].push(vars.f1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 32:
-            if (numerosNormais.length < 99 && autoInputNumerosNaturais == false) 
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;}{
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.g1 = numerosNormais[i + 64] * numerosNormais[i + 65] / numerosNormais[i + 66];
-            
-            if(isNaN(vars.g1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.g1) {
-              case null:
-                vars.g1 = 0;
-                break;
-              case Infinity:
-                vars.g1 = 0;
-                break;
-              case -Infinity:
-                vars.g1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.g1;
-            resultado[0].push(vars.g1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 33:
-            if (numerosNormais.length < 102 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.h1 = numerosNormais[i + 66] * numerosNormais[i + 67] / numerosNormais[i + 68];
-            
-            if(isNaN(vars.h1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.h1) {
-              case null:
-                vars.h1 = 0;
-                break;
-              case Infinity:
-                vars.h1 = 0;
-                break;
-              case -Infinity:
-                vars.h1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.h1;
-            resultado[0].push(vars.h1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 34:
-            if (numerosNormais.length < 105 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.i1 = numerosNormais[i + 68] * numerosNormais[i + 69] / numerosNormais[i + 70];
-            
-            if(isNaN(vars.i1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.i1) {
-              case null:
-                vars.i1 = 0;
-                break;
-              case Infinity:
-                vars.i1 = 0;
-                break;
-              case -Infinity:
-                vars.i1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.i1;
-            resultado[0].push(vars.i1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 35:
-            if (numerosNormais.length < 108 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.j1 = numerosNormais[i + 70] * numerosNormais[i + 71] / numerosNormais[i + 72];
-            
-            if(isNaN(vars.j1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.j1) {
-              case null:
-                vars.j1 = 0;
-                break;
-              case Infinity:
-                vars.j1 = 0;
-                break;
-              case -Infinity:
-                vars.j1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.j1;
-            resultado[0].push(vars.j1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 36:
-            if (numerosNormais.length < 111 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.k1 = numerosNormais[i + 72] * numerosNormais[i + 73] / numerosNormais[i + 74];
-            
-            if(isNaN(vars.k1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.k1) {
-              case null:
-                vars.k1 = 0;
-                break;
-              case Infinity:
-                vars.k1 = 0;
-                break;
-              case -Infinity:
-                vars.k1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.k1;
-            resultado[0].push(vars.k1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 37:
-            if (numerosNormais.length < 114 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.l1 = numerosNormais[i + 74] * numerosNormais[i + 75] / numerosNormais[i + 76];
-            
-            if(isNaN(vars.l1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.l1) {
-              case null:
-                vars.l1 = 0;
-                break;
-              case Infinity:
-                vars.l1 = 0;
-                break;
-              case -Infinity:
-                vars.l1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.l1;
-            resultado[0].push(vars.l1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 38:
-            if (numerosNormais.length < 117 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.m1 = numerosNormais[i + 76] * numerosNormais[i + 77] / numerosNormais[i + 78];
-            
-            if(isNaN(vars.m1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.m1) {
-              case null:
-                vars.m1 = 0;
-                break;
-              case Infinity:
-                vars.m1 = 0;
-                break;
-              case -Infinity:
-                vars.m1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.m1;
-            resultado[0].push(vars.m1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 39:
-            if (numerosNormais.length < 120 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.n1 = numerosNormais[i + 78] * numerosNormais[i + 79] / numerosNormais[i + 80];
-            
-            if(isNaN(vars.n1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.n1) {
-              case null:
-                vars.n1 = 0;
-                break;
-              case Infinity:
-                vars.n1 = 0;
-                break;
-              case -Infinity:
-                vars.n1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.n1;
-            resultado[0].push(vars.n1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 40:
-            if (numerosNormais.length < 123 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.o1 = numerosNormais[i + 80] * numerosNormais[i + 81] / numerosNormais[i + 82];
-            
-            if(isNaN(vars.o1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.o1) {
-              case null:
-                vars.o1 = 0;
-                break;
-              case Infinity:
-                vars.o1 = 0;
-                break;
-              case -Infinity:
-                vars.o1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.o1;
-            resultado[0].push(vars.o1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 41:
-            if (numerosNormais.length < 126 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.p1 = numerosNormais[i + 82] * numerosNormais[i + 83] / numerosNormais[i + 84];
-            
-            if(isNaN(vars.p1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.p1) {
-              case null:
-                vars.p1 = 0;
-                break;
-              case Infinity:
-                vars.p1 = 0;
-                break;
-              case -Infinity:
-                vars.p1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.p1;
-            resultado[0].push(vars.p1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 42:
-            if (numerosNormais.length < 129 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.q1 = numerosNormais[i + 84] * numerosNormais[i + 85] / numerosNormais[i + 86];
-            
-            if(isNaN(vars.q1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.q1) {
-              case null:
-                vars.q1 = 0;
-                break;
-              case Infinity:
-                vars.q1 = 0;
-                break;
-              case -Infinity:
-                vars.q1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.q1;
-            resultado[0].push(vars.q1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 43:
-            if (numerosNormais.length < 132 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.r1 = numerosNormais[i + 86] * numerosNormais[i + 87] / numerosNormais[i + 88];
-            
-            if(isNaN(vars.r1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.r1) {
-              case null:
-                vars.r1 = 0;
-                break;
-              case Infinity:
-                vars.r1 = 0;
-                break;
-              case -Infinity:
-                vars.r1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.r1;
-            resultado[0].push(vars.r1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 44:
-            if (numerosNormais.length < 135 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.s1 = numerosNormais[i + 88] * numerosNormais[i + 89] / numerosNormais[i + 90];
-            
-            if(isNaN(vars.s1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.s1) {
-              case null:
-                vars.s1 = 0;
-                break;
-              case Infinity:
-                vars.s1 = 0;
-                break;
-              case -Infinity:
-                vars.s1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.s1;
-            resultado[0].push(vars.s1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 45:
-            if (numerosNormais.length < 138 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.t1 = numerosNormais[i + 90] * numerosNormais[i + 91] / numerosNormais[i + 92];
-            
-            if(isNaN(vars.t1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.t1) {
-              case null:
-                vars.t1 = 0;
-                break;
-              case Infinity:
-                vars.t1 = 0;
-                break;
-              case -Infinity:
-                vars.t1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.t1;
-            resultado[0].push(vars.t1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 46:
-            if (numerosNormais.length < 141 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.u1 = numerosNormais[i + 92] * numerosNormais[i + 93] / numerosNormais[i + 94];
-            
-            if(isNaN(vars.u1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.u1) {
-              case null:
-                vars.u1 = 0;
-                break;
-              case Infinity:
-                vars.u1 = 0;
-                break;
-              case -Infinity:
-                vars.u1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.u1;
-            resultado[0].push(vars.u1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 47:
-            if (numerosNormais.length < 144 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.v1 = numerosNormais[i + 94] * numerosNormais[i + 95] / numerosNormais[i + 96];
-            
-            if(isNaN(vars.v1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.v1) {
-              case null:
-                vars.v1 = 0;
-                break;
-              case Infinity:
-                vars.v1 = 0;
-                break;
-              case -Infinity:
-                vars.v1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.v1;
-            resultado[0].push(vars.v1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 48:
-            if (numerosNormais.length < 147 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.w1 = numerosNormais[i + 96] * numerosNormais[i + 97] / numerosNormais[i + 98];
-            
-            if(isNaN(vars.w1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.w1) {
-              case null:
-                vars.w1 = 0;
-                break;
-              case Infinity:
-                vars.w1 = 0;
-                break;
-              case -Infinity:
-                vars.w1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.w1;
-            resultado[0].push(vars.w1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 49:
-            if (numerosNormais.length < 150 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.valor1 = numerosNormais[i + 98] * numerosNormais[i + 99] / numerosNormais[i + 100];
-            
-            if(isNaN(vars.valor1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.valor1) {
-              case null:
-                vars.valor1 = 0;
-                break;
-              case Infinity:
-                vars.valor1 = 0;
-                break;
-              case -Infinity:
-                vars.valor1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.valor1;
-            resultado[0].push(vars.valor1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 50:
-            if (numerosNormais.length < 153 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.y1 = numerosNormais[i + 100] * numerosNormais[i + 101] / numerosNormais[i + 102];
-            
-            if(isNaN(vars.y1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.y1) {
-              case null:
-                vars.y1 = 0;
-                break;
-              case Infinity:
-                vars.y1 = 0;
-                break;
-              case -Infinity:
-                vars.y1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.y1;
-            resultado[0].push(vars.y1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 51:
-            if (numerosNormais.length < 156 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.z1 = numerosNormais[i + 102] * numerosNormais[i + 103] / numerosNormais[i + 104];
-            
-            if(isNaN(vars.z1) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.z1) {
-              case null:
-                vars.z1 = 0;
-                break;
-              case Infinity:
-                vars.z1 = 0;
-                break;
-              case -Infinity:
-                vars.z1 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.z1;
-            resultado[0].push(vars.z1);
-            resultado[1] = somaVariaveis;
-            break;
-        case 52:
-            if (numerosNormais.length < 159 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.a2 = numerosNormais[i + 104] * numerosNormais[i + 105] / numerosNormais[i + 106];
-            
-            if(isNaN(vars.a2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.a2) {
-              case null:
-                vars.a2 = 0;
-                break;
-              case Infinity:
-                vars.a2 = 0;
-                break;
-              case -Infinity:
-                vars.a2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.a2;
-            resultado[0].push(vars.a2);
-            resultado[1] = somaVariaveis;
-            break;
-        // Padrão de Sincronia 3
-        case 53:
-            if (numerosNormais.length < 161 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.b2 = numerosNormais[i + 105] * numerosNormais[i + 106] / numerosNormais[i + 107];
-            
-            if(isNaN(vars.b2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.b2) {
-              case null:
-                vars.b2 = 0;
-                break;
-              case Infinity:
-                vars.b2 = 0;
-                break;
-              case -Infinity:
-                vars.b2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.b2;
-            resultado[0].push(vars.b2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 54:
-            if (numerosNormais.length < 164 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.c2 = numerosNormais[i + 107] * numerosNormais[i + 108] / numerosNormais[i + 109];
-            
-            if(isNaN(vars.c2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.c2) {
-              case null:
-                vars.c2 = 0;
-                break;
-              case Infinity:
-                vars.c2 = 0;
-                break;
-              case -Infinity:
-                vars.c2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.c2;
-            resultado[0].push(vars.c2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 55:
-            if (numerosNormais.length < 167 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.d2 = numerosNormais[i + 109] * numerosNormais[i + 110] / numerosNormais[i + 111];
-            
-            if(isNaN(vars.d2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.d2) {
-              case null:
-                vars.d2 = 0;
-                break;
-              case Infinity:
-                vars.d2 = 0;
-                break;
-              case -Infinity:
-                vars.d2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.d2;
-            resultado[0].push(vars.d2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 56:
-            if (numerosNormais.length < 170 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.e2 = numerosNormais[i + 111] * numerosNormais[i + 112] / numerosNormais[i + 113];
-            
-            if(isNaN(vars.e2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.e2) {
-              case null:
-                vars.e2 = 0;
-                break;
-              case Infinity:
-                vars.e2 = 0;
-                break;
-              case -Infinity:
-                vars.e2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.e2;
-            resultado[0].push(vars.e2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 57:
-            if (numerosNormais.length < 173 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.f2 = numerosNormais[i + 113] * numerosNormais[i + 114] / numerosNormais[i + 115];
-            
-            if(isNaN(vars.f2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.f2) {
-              case null:
-                vars.f2 = 0;
-                break;
-              case Infinity:
-                vars.f2 = 0;
-                break;
-              case -Infinity:
-                vars.f2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.f2;
-            resultado[0].push(vars.f2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 58:
-            if (numerosNormais.length < 176 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.g2 = numerosNormais[i + 115] * numerosNormais[i + 116] / numerosNormais[i + 117];
-            
-            if(isNaN(vars.g2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.g2) {
-              case null:
-                vars.g2 = 0;
-                break;
-              case Infinity:
-                vars.g2 = 0;
-                break;
-              case -Infinity:
-                vars.g2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.g2;
-            resultado[0].push(vars.g2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 59:
-            if (numerosNormais.length < 179 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.h2 = numerosNormais[i + 117] * numerosNormais[i + 118] / numerosNormais[i + 119];
-            
-            if(isNaN(vars.h2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.h2) {
-              case null:
-                vars.h2 = 0;
-                break;
-              case Infinity:
-                vars.h2 = 0;
-                break;
-              case -Infinity:
-                vars.h2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.h2;
-            resultado[0].push(vars.h2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 60:
-            if (numerosNormais.length < 181 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.i2 = numerosNormais[i + 118] * numerosNormais[i + 119] / numerosNormais[i + 120];
-            
-            if(isNaN(vars.i2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.i2) {
-              case null:
-                vars.i2 = 0;
-                break;
-              case Infinity:
-                vars.i2 = 0;
-                break;
-              case -Infinity:
-                vars.i2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.i2;
-            resultado[0].push(vars.i2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 61:
-            if (numerosNormais.length < 185 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.j2 = numerosNormais[i + 121] * numerosNormais[i + 122] / numerosNormais[i + 123];
-            
-            if(isNaN(vars.j2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.j2) {
-              case null:
-                vars.j2 = 0;
-                break;
-              case Infinity:
-                vars.j2 = 0;
-                break;
-              case -Infinity:
-                vars.j2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.j2;
-            resultado[0].push(vars.j2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 62:
-            if (numerosNormais.length < 188 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.k2 = numerosNormais[i + 123] * numerosNormais[i + 124] / numerosNormais[i + 125];
-            
-            if(isNaN(vars.k2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.k2) {
-              case null:
-                vars.k2 = 0;
-                break;
-              case Infinity:
-                vars.k2 = 0;
-                break;
-              case -Infinity:
-                vars.k2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.k2;
-            resultado[0].push(vars.k2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 63:
-            if (numerosNormais.length < 191 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.l2 = numerosNormais[i + 125] * numerosNormais[i + 126] / numerosNormais[i + 127];
-            
-            if(isNaN(vars.l2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.l2) {
-              case null:
-                vars.l2 = 0;
-                break;
-              case Infinity:
-                vars.l2 = 0;
-                break;
-              case -Infinity:
-                vars.l2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.l2;
-            resultado[0].push(vars.l2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 64:
-            if (numerosNormais.length < 194 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.m2 = numerosNormais[i + 127] * numerosNormais[i + 128] / numerosNormais[i + 129];
-            
-            if(isNaN(vars.m2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.m2) {
-              case null:
-                vars.m2 = 0;
-                break;
-              case Infinity:
-                vars.m2 = 0;
-                break;
-              case -Infinity:
-                vars.m2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.m2;
-            resultado[0].push(vars.m2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 65:
-            if (numerosNormais.length < 197 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.n2 = numerosNormais[i + 129] * numerosNormais[i + 130] / numerosNormais[i + 131];
-            
-            if(isNaN(vars.n2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.n2) {
-              case null:
-                vars.n2 = 0;
-                break;
-              case Infinity:
-                vars.n2 = 0;
-                break;
-              case -Infinity:
-                vars.n2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.n2;
-            resultado[0].push(vars.n2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 66:
-            if (numerosNormais.length < 200 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.o2 = numerosNormais[i + 131] * numerosNormais[i + 132] / numerosNormais[i + 133];
-            
-            if(isNaN(vars.o2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.o2) {
-              case null:
-                vars.o2 = 0;
-                break;
-              case Infinity:
-                vars.o2 = 0;
-                break;
-              case -Infinity:
-                vars.o2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.o2;
-            resultado[0].push(vars.o2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 67:
-            if (numerosNormais.length < 203 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.p2 = numerosNormais[i + 133] * numerosNormais[i + 134] / numerosNormais[i + 135];
-            
-            if(isNaN(vars.p2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.p2) {
-              case null:
-                vars.p2 = 0;
-                break;
-              case Infinity:
-                vars.p2 = 0;
-                break;
-              case -Infinity:
-                vars.p2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.p2;
-            resultado[0].push(vars.p2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 68:
-            if (numerosNormais.length < 206 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.q2 = numerosNormais[i + 135] * numerosNormais[i + 136] / numerosNormais[i + 137];
-            
-            if(isNaN(vars.q2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.q2) {
-              case null:
-                vars.q2 = 0;
-                break;
-              case Infinity:
-                vars.q2 = 0;
-                break;
-              case -Infinity:
-                vars.q2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.q2;
-            resultado[0].push(vars.q2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 69:
-            if (numerosNormais.length < 209 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.r2 = numerosNormais[i + 137] * numerosNormais[i + 138] / numerosNormais[i + 139];
-            
-            if(isNaN(vars.r2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.r2) {
-              case null:
-                vars.r2 = 0;
-                break;
-              case Infinity:
-                vars.r2 = 0;
-                break;
-              case -Infinity:
-                vars.r2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.r2;
-            resultado[0].push(vars.r2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 70:
-            if (numerosNormais.length < 212 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.s2 = numerosNormais[i + 139] * numerosNormais[i + 140] / numerosNormais[i + 141];
-            
-            if(isNaN(vars.s2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.s2) {
-              case null:
-                vars.s2 = 0;
-                break;
-              case Infinity:
-                vars.s2 = 0;
-                break;
-              case -Infinity:
-                vars.s2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.s2;
-            resultado[0].push(vars.s2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 71:
-            if (numerosNormais.length < 215 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.t2 = numerosNormais[i + 141] * numerosNormais[i + 142] / numerosNormais[i + 143];
-            
-            if(isNaN(vars.t2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.t2) {
-              case null:
-                vars.t2 = 0;
-                break;
-              case Infinity:
-                vars.t2 = 0;
-                break;
-              case -Infinity:
-                vars.t2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.t2;
-            resultado[0].push(vars.t2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 72:
-            if (numerosNormais.length < 218 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.u2 = numerosNormais[i + 143] * numerosNormais[i + 144] / numerosNormais[i + 145];
-            
-            if(isNaN(vars.u2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.u2) {
-              case null:
-                vars.u2 = 0;
-                break;
-              case Infinity:
-                vars.u2 = 0;
-                break;
-              case -Infinity:
-                vars.u2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.u2;
-            resultado[0].push(vars.u2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 73:
-            if (numerosNormais.length < 221 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.v2 = numerosNormais[i + 145] * numerosNormais[i + 146] / numerosNormais[i + 147];
-            
-            if(isNaN(vars.v2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.v2) {
-              case null:
-                vars.v2 = 0;
-                break;
-              case Infinity:
-                vars.v2 = 0;
-                break;
-              case -Infinity:
-                vars.v2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.v2;
-            resultado[0].push(vars.v2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 74:
-            if (numerosNormais.length < 224 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.w2 = numerosNormais[i + 147] * numerosNormais[i + 148] / numerosNormais[i + 149];
-            
-            if(isNaN(vars.w2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.w2) {
-              case null:
-                vars.w2 = 0;
-                break;
-              case Infinity:
-                vars.w2 = 0;
-                break;
-              case -Infinity:
-                vars.w2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.w2;
-            resultado[0].push(vars.w2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 75:
-            if (numerosNormais.length < 227 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.valor2 = numerosNormais[i + 149] * numerosNormais[i + 150] / numerosNormais[i + 151];
-            
-            if(isNaN(vars.valor2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.valor2) {
-              case null:
-                vars.valor2 = 0;
-                break;
-              case Infinity:
-                vars.valor2 = 0;
-                break;
-              case -Infinity:
-                vars.valor2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.valor2;
-            resultado[0].push(vars.valor2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 76:
-            if (numerosNormais.length < 230 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.y2 = numerosNormais[i + 151] * numerosNormais[i + 152] / numerosNormais[i + 153];
-            
-            if(isNaN(vars.y2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.y2) {
-              case null:
-                vars.y2 = 0;
-                break;
-              case Infinity:
-                vars.y2 = 0;
-                break;
-              case -Infinity:
-                vars.y2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.y2;
-            resultado[0].push(vars.y2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 77:
-            if (numerosNormais.length < 233 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.z2 = numerosNormais[i + 153] * numerosNormais[i + 154] / numerosNormais[i + 155];
-            
-            if(isNaN(vars.z2) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.z2) {
-              case null:
-                vars.z2 = 0;
-                break;
-              case Infinity:
-                vars.z2 = 0;
-                break;
-              case -Infinity:
-                vars.z2 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.z2;
-            resultado[0].push(vars.z2);
-            resultado[1] = somaVariaveis;
-            break;
-        case 78:
-            if (numerosNormais.length < 236 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.a3 = numerosNormais[i + 155] * numerosNormais[i + 156] / numerosNormais[i + 157];
-            
-            if(isNaN(vars.a3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.a3) {
-              case null:
-                vars.a3 = 0;
-                break;
-              case Infinity:
-                vars.a3 = 0;
-                break;
-              case -Infinity:
-                vars.a3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.a3;
-            resultado[0].push(vars.a3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 79:
-            if (numerosNormais.length < 239 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.b3 = numerosNormais[i + 157] * numerosNormais[i + 158] / numerosNormais[i + 159];
-            
-            if(isNaN(vars.b3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.b3) {
-              case null:
-                vars.b3 = 0;
-                break;
-              case Infinity:
-                vars.b3 = 0;
-                break;
-              case -Infinity:
-                vars.b3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.b3;
-            resultado[0].push(vars.b3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 80:
-            if (numerosNormais.length < 241 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.c3 = numerosNormais[i + 158] * numerosNormais[i + 159] / numerosNormais[i + 160];
-            
-            if(isNaN(vars.c3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.c3) {
-              case null:
-                vars.c3 = 0;
-                break;
-              case Infinity:
-                vars.c3 = 0;
-                break;
-              case -Infinity:
-                vars.c3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.c3;
-            resultado[0].push(vars.c3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 81:
-            if (numerosNormais.length < 244 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.d3 = numerosNormais[i + 160] * numerosNormais[i + 161] / numerosNormais[i + 162];
-            
-            if(isNaN(vars.d3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.d3) {
-              case null:
-                vars.d3 = 0;
-                break;
-              case Infinity:
-                vars.d3 = 0;
-                break;
-              case -Infinity:
-                vars.d3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.d3;
-            resultado[0].push(vars.d3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 82:
-            if (numerosNormais.length < 247 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.e3 = numerosNormais[i + 162] * numerosNormais[i + 163] / numerosNormais[i + 164];
-            
-            if(isNaN(vars.e3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.e3) {
-              case null:
-                vars.e3 = 0;
-                break;
-              case Infinity:
-                vars.e3 = 0;
-                break;
-              case -Infinity:
-                vars.e3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.e3;
-            resultado[0].push(vars.e3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 83:
-            if (numerosNormais.length < 250 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.f3 = numerosNormais[i + 164] * numerosNormais[i + 165] / numerosNormais[i + 166];
-            
-            if(isNaN(vars.f3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.f3) {
-              case null:
-                vars.f3 = 0;
-                break;
-              case Infinity:
-                vars.f3 = 0;
-                break;
-              case -Infinity:
-                vars.f3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.f3;
-            resultado[0].push(vars.f3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 84:
-            if (numerosNormais.length < 253 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.g3 = numerosNormais[i + 166] * numerosNormais[i + 167] / numerosNormais[i + 169];
-            
-            if(isNaN(vars.g3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.g3) {
-              case null:
-                vars.g3 = 0;
-                break;
-              case Infinity:
-                vars.g3 = 0;
-                break;
-              case -Infinity:
-                vars.g3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.g3;
-            resultado[0].push(vars.g3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 85:
-            if (numerosNormais.length < 256 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.h3 = numerosNormais[i + 168] * numerosNormais[i + 169] / numerosNormais[i + 170];
-            
-            if(isNaN(vars.h3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.h3) {
-              case null:
-                vars.h3 = 0;
-                break;
-              case Infinity:
-                vars.h3 = 0;
-                break;
-              case -Infinity:
-                vars.h3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.h3;
-            resultado[0].push(vars.h3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 86:
-            if (numerosNormais.length < 259 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.i3 = numerosNormais[i + 170] * numerosNormais[i + 171] / numerosNormais[i + 172];
-            
-            if(isNaN(vars.i3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.i3) {
-              case null:
-                vars.i3 = 0;
-                break;
-              case Infinity:
-                vars.i3 = 0;
-                break;
-              case -Infinity:
-                vars.i3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.i3;
-            resultado[0].push(vars.i3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 87:
-            if (numerosNormais.length < 261 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.j3 = numerosNormais[i + 171] * numerosNormais[i + 172] / numerosNormais[i + 173];
-            
-            if(isNaN(vars.j3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.j3) {
-              case null:
-                vars.j3 = 0;
-                break;
-              case Infinity:
-                vars.j3 = 0;
-                break;
-              case -Infinity:
-                vars.j3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.j3;
-            resultado[0].push(vars.j3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 88:
-            if (numerosNormais.length < 264 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.k3 = numerosNormais[i + 173] * numerosNormais[i + 174] / numerosNormais[i + 175];
-            
-            if(isNaN(vars.k3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.k3) {
-              case null:
-                vars.k3 = 0;
-                break;
-              case Infinity:
-                vars.k3 = 0;
-                break;
-              case -Infinity:
-                vars.k3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.k3;
-            resultado[0].push(vars.k3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 89:
-            if (numerosNormais.length < 267 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.l3 = numerosNormais[i + 175] * numerosNormais[i + 176] / numerosNormais[i + 177];
-            
-            if(isNaN(vars.l3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.l3) {
-              case null:
-                vars.l3 = 0;
-                break;
-              case Infinity:
-                vars.l3 = 0;
-                break;
-              case -Infinity:
-                vars.l3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.l3;
-            resultado[0].push(vars.l3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 90:
-            if (numerosNormais.length < 270 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.m3 = numerosNormais[i + 177] * numerosNormais[i + 178] / numerosNormais[i + 179];
-            
-            if(isNaN(vars.m3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.m3) {
-              case null:
-                vars.m3 = 0;
-                break;
-              case Infinity:
-                vars.m3 = 0;
-                break;
-              case -Infinity:
-                vars.m3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.m3;
-            resultado[0].push(vars.m3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 91:
-            if (numerosNormais.length < 273 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.n3 = numerosNormais[i + 179] * numerosNormais[i + 180] / numerosNormais[i + 181];
-            
-            if(isNaN(vars.n3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.n3) {
-              case null:
-                vars.n3 = 0;
-                break;
-              case Infinity:
-                vars.n3 = 0;
-                break;
-              case -Infinity:
-                vars.n3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.n3;
-            resultado[0].push(vars.n3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 92:
-            if (numerosNormais.length < 276 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.o3 = numerosNormais[i + 181] * numerosNormais[i + 182] / numerosNormais[i + 183];
-            
-            if(isNaN(vars.o3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.o3) {
-              case null:
-                vars.o3 = 0;
-                break;
-              case Infinity:
-                vars.o3 = 0;
-                break;
-              case -Infinity:
-                vars.o3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.o3;
-            resultado[0].push(vars.o3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 93:
-            if (numerosNormais.length < 279 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.p3 = numerosNormais[i + 183] * numerosNormais[i + 184] / numerosNormais[i + 185];
-            
-            if(isNaN(vars.p3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.p3) {
-              case null:
-                vars.p3 = 0;
-                break;
-              case Infinity:
-                vars.p3 = 0;
-                break;
-              case -Infinity:
-                vars.p3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.p3;
-            resultado[0].push(vars.p3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 94:
-            if (numerosNormais.length < 281 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.q3 = numerosNormais[i + 184] * numerosNormais[i + 185] / numerosNormais[i + 186];
-            
-            if(isNaN(vars.q3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.q3) {
-              case null:
-                vars.q3 = 0;
-                break;
-              case Infinity:
-                vars.q3 = 0;
-                break;
-              case -Infinity:
-                vars.q3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.q3;
-            resultado[0].push(vars.q3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 95:
-            if (numerosNormais.length < 284 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.r3 = numerosNormais[i + 186] * numerosNormais[i + 187] / numerosNormais[i + 188];
-            
-            if(isNaN(vars.r3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.r3) {
-              case null:
-                vars.r3 = 0;
-                break;
-              case Infinity:
-                vars.r3 = 0;
-                break;
-              case -Infinity:
-                vars.r3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.r3;
-            resultado[0].push(vars.r3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 96:
-            if (numerosNormais.length < 287 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.s3 = numerosNormais[i + 188] * numerosNormais[i + 189] / numerosNormais[i + 190];
-            
-            if(isNaN(vars.s3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.s3) {
-              case null:
-                vars.s3 = 0;
-                break;
-              case Infinity:
-                vars.s3 = 0;
-                break;
-              case -Infinity:
-                vars.s3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.s3;
-            resultado[0].push(vars.s3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 97:
-            if (numerosNormais.length < 290 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.t3 = numerosNormais[i + 190] * numerosNormais[i + 191] / numerosNormais[i + 192];
-            
-            if(isNaN(vars.t3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.t3) {
-              case null:
-                vars.t3 = 0;
-                break;
-              case Infinity:
-                vars.t3 = 0;
-                break;
-              case -Infinity:
-                vars.t3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.t3;
-            resultado[0].push(vars.t3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 98:
-            if (numerosNormais.length < 293 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.u3 = numerosNormais[i + 192] * numerosNormais[i + 193] / numerosNormais[i + 194];
-            
-            if(isNaN(vars.u3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.u3) {
-              case null:
-                vars.u3 = 0;
-                break;
-              case Infinity:
-                vars.u3 = 0;
-                break;
-              case -Infinity:
-                vars.u3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.u3;
-            resultado[0].push(vars.u3);
-            resultado[1] = somaVariaveis;
-            break;
-        case 99:
-            if (numerosNormais.length < 296 && autoInputNumerosNaturais == false)
-            if(numerosNormais[i] == 0 || isNaN(numerosNormais[i]) == true) {return resultado[1] = 0;} {
-              console.error("Números Normais Insuficientes!, Tente Novamente.");
-              return resultado[1] = 0; 
-            }
-
-            vars.v3 = numerosNormais[i + 194] * numerosNormais[i + 195] / numerosNormais[i + 196];
-            
-            if(isNaN(vars.v3) == true) {
-              return resultado[0].push(0);
-            }
-
-            switch (vars.v3) {
-              case null:
-                vars.v3 = 0;
-                break;
-              case Infinity:
-                vars.v3 = 0;
-                break;
-              case -Infinity:
-                vars.v3 = 0;
-                break;
-            }
-            somaVariaveis = somaVariaveis + vars.v3;
-            resultado[0].push(vars.v3);
-            resultado[1] = somaVariaveis;
-            break;
-        default:
-            console.error("Houve um ou mais erros ao realizar o calculo!");
-            break;
       }
     }
 
@@ -7473,6 +3140,506 @@ class Modules {
     }
 
     return resultado;
+  }
+
+  // Conversores de Bases
+  convBasesTechnoNumericos(valor=typeof(""||0), input=0, output=0) {
+
+    function formulaBinarioDecimal(valor = '') {
+      let resultado = 0, numBinarioDesm = [], verificacao = /[2-9]/g;
+
+      if (verificacao.exec(valor) == "2" || verificacao.exec(valor) == "3" || verificacao.exec(valor) == "4" || verificacao.exec(valor) == "5" || verificacao.exec(valor) == "6" || verificacao.exec(valor) == "7" || verificacao.exec(valor) == "8" || verificacao.exec(valor) == "9") {
+        return console.error("O valor inserido não condiz com um valor de base binária!");
+      }
+
+      for (let a = 0, srt = 0, fnl = 1; a < valor.length; a++, srt++, fnl++) { numBinarioDesm.push(valor.slice(srt, fnl)); }
+
+      for (let a = 0, b = numBinarioDesm.length - 1; a < numBinarioDesm.length, b > -1; a++, b--) {
+        numBinarioDesm[a] = numBinarioDesm[a] * 2 ** b;
+        resultado = resultado + numBinarioDesm[a];
+      }
+
+      return resultado;
+    }
+
+    function formulaBinarioOctadecimal(valor = '') {
+      let resultado = 0, numBinarioDesm = [], verificacao = /[2-9]/g, verificacaoResultado = /[8-9]/g;
+
+      if (verificacao.exec(valor) == "2" || verificacao.exec(valor) == "3" || verificacao.exec(valor) == "4" || verificacao.exec(valor) == "5" || verificacao.exec(valor) == "6" || verificacao.exec(valor) == "7" || verificacao.exec(valor) == "8" || verificacao.exec(valor) == "9") {
+        return console.error("O valor inserido não condiz com um valor de base binária!");
+      }
+
+      for (let a = 0, srt = 0, fnl = 1; a < valor.length; a++, srt++, fnl++) { numBinarioDesm.push(valor.slice(srt, fnl)); }
+
+      for (let a = 0, b = numBinarioDesm.length - 1; a < numBinarioDesm.length, b > -1; a++, b--) {
+        numBinarioDesm[a] = numBinarioDesm[a] * 2 ** b;
+        resultado = resultado + numBinarioDesm[a];
+      }
+
+      let analise = verificacaoResultado.exec(resultado.toString());
+      
+      if (analise == null) { resultado = resultado; }
+
+      if (analise == '8') { resultado = resultado + 1; }
+
+      if (analise == '9') { resultado = resultado + 2; }
+
+      return resultado;
+    }
+
+    function formulaBinarioHexadecimal(valor = '') {
+      let resultado = '', verificacao = /[2-9]/g;
+
+      if (verificacao.exec(valor) == "2" || verificacao.exec(valor) == "3" || verificacao.exec(valor) == "4" || verificacao.exec(valor) == "5" || verificacao.exec(valor) == "6" || verificacao.exec(valor) == "7" || verificacao.exec(valor) == "8" || verificacao.exec(valor) == "9") {
+        return console.error("O valor inserido não condiz com um valor de base binária!");
+      }
+
+      if (valor == '0') { resultado = resultado + '0'; }
+      if (valor == '1') { resultado = resultado + '1'; }
+      if (valor == '00') { resultado = resultado + '0'; }
+      if (valor == '01') { resultado = resultado + '1'; }
+      if (valor == '10') { resultado = resultado + '2'; }
+      if (valor == '11') { resultado = resultado + '3'; }
+      if (valor == '100') { resultado = resultado + '4'; }
+      if (valor == '101') { resultado = resultado + '5'; }
+      if (valor == '110') { resultado = resultado + '6'; }
+      if (valor == '111') { resultado = resultado + '7'; }
+
+      if (valor == '0000') { resultado = resultado + '0'; }
+      if (valor == '0001') { resultado = resultado + '1'; }
+      if (valor == '0010') { resultado = resultado + '2'; }
+      if (valor == '0011') { resultado = resultado + '3'; }
+      if (valor == '0100') { resultado = resultado + '4'; }
+      if (valor == '0101') { resultado = resultado + '5'; }
+      if (valor == '0110') { resultado = resultado + '6'; }
+      if (valor == '0111') { resultado = resultado + '7'; }
+      if (valor == '1000') { resultado = resultado + '8'; }
+      if (valor == '1001') { resultado = resultado + '9'; }
+      if (valor == '1010') { resultado = resultado + 'A'; }
+      if (valor == '1011') { resultado = resultado + 'B'; }
+      if (valor == '1100') { resultado = resultado + 'C'; }
+      if (valor == '1101') { resultado = resultado + 'D'; }
+      if (valor == '1110') { resultado = resultado + 'E'; }
+      if (valor == '1111') { resultado = resultado + 'F'; }
+
+      return resultado;
+    }
+
+    function formulaDecimalBinario(valor = 0) {
+      let resultado = '', numBinarioCons = [];
+
+      while (valor > 0) {
+        let resto = valor % 2; valor = valor / 2;
+
+        if (resto == 0) { numBinarioCons.push('0'); }
+        if (resto == 1) { numBinarioCons.push('1'); valor = parseInt(valor); }
+      }
+
+      for (let a = numBinarioCons.length; a > 0; a--) {
+        resultado = resultado + numBinarioCons[a - 1];
+      }
+
+      return resultado;
+    }
+
+    function formulaDecimalOctadecimal(valor = 0) {
+      let resultado = '', numBinarioCons = [];
+
+      while (valor > 0) {
+        let resto = valor % 8; valor = valor / 8;
+
+        if (resto == 0) { numBinarioCons.push('0'); }
+        if (resto == 1) { numBinarioCons.push('1'); valor = parseInt(valor); }
+        if (resto == 2) { numBinarioCons.push('2'); valor = parseInt(valor); }
+        if (resto == 3) { numBinarioCons.push('3'); valor = parseInt(valor); }
+        if (resto == 4) { numBinarioCons.push('4'); valor = parseInt(valor); }
+        if (resto == 5) { numBinarioCons.push('5'); valor = parseInt(valor); }
+        if (resto == 6) { numBinarioCons.push('6'); valor = parseInt(valor); }
+        if (resto == 7) { numBinarioCons.push('7'); valor = parseInt(valor); }
+      }
+
+      for (let a = numBinarioCons.length; a > 0; a--) {
+        resultado = resultado + numBinarioCons[a - 1];
+      }
+
+      return resultado;
+    }
+
+    function formulaDecimalHexadecimal(valor = 0) {
+      let resultado = '', numBinarioCons = [];
+
+      while (valor > 0) {
+        let resto = valor % 16; valor = valor / 16;
+
+        if (resto == 0) { numBinarioCons.push('0'); }
+        if (resto == 1) { numBinarioCons.push('1'); valor = parseInt(valor); }
+        if (resto == 2) { numBinarioCons.push('2'); valor = parseInt(valor); }
+        if (resto == 3) { numBinarioCons.push('3'); valor = parseInt(valor); }
+        if (resto == 4) { numBinarioCons.push('4'); valor = parseInt(valor); }
+        if (resto == 5) { numBinarioCons.push('5'); valor = parseInt(valor); }
+        if (resto == 6) { numBinarioCons.push('6'); valor = parseInt(valor); }
+        if (resto == 7) { numBinarioCons.push('7'); valor = parseInt(valor); }
+        if (resto == 8) { numBinarioCons.push('8'); valor = parseInt(valor); }
+        if (resto == 9) { numBinarioCons.push('9'); valor = parseInt(valor); }
+        if (resto == 10) { numBinarioCons.push('A'); valor = parseInt(valor); }
+        if (resto == 11) { numBinarioCons.push('B'); valor = parseInt(valor); }
+        if (resto == 12) { numBinarioCons.push('C'); valor = parseInt(valor); }
+        if (resto == 13) { numBinarioCons.push('D'); valor = parseInt(valor); }
+        if (resto == 14) { numBinarioCons.push('E'); valor = parseInt(valor); }
+        if (resto == 15) { numBinarioCons.push('F'); valor = parseInt(valor); }
+      }
+
+      for (let a = numBinarioCons.length; a > 0; a--) {
+        resultado = resultado + numBinarioCons[a - 1];
+      }
+
+      return resultado;
+    }
+
+    function formulaOctadecimalBinario(valor = 0) {
+      let resultado = '', numBinarioCons = [], verificacao = /[8-9]$/g;
+
+      let teste = verificacao.exec(valor);
+
+      if (teste == "8" || teste == "9") { return console.error('O valor inserido não condiz com um número de base octadecimal!'); }
+
+      for (let a = 0; a < valor.toString().length; a++) {
+        numBinarioCons.push(valor.toString().slice(a, a + 1));
+
+        if (numBinarioCons[a] == '0') { resultado = resultado + '000'; }
+        if (numBinarioCons[a] == '1') { resultado = resultado + '001'; }
+        if (numBinarioCons[a] == '2') { resultado = resultado + '010'; }
+        if (numBinarioCons[a] == '3') { resultado = resultado + '011'; }
+        if (numBinarioCons[a] == '4') { resultado = resultado + '100'; }
+        if (numBinarioCons[a] == '5') { resultado = resultado + '101'; }
+        if (numBinarioCons[a] == '6') { resultado = resultado + '110'; }
+        if (numBinarioCons[a] == '7') { resultado = resultado + '111'; }
+
+      }
+
+      resultado = resultado.match(/[1]+([0-1]+)?/g).toString();
+
+      return resultado;
+    }
+
+    function formulaOctadecimalDecimal(valor = 0) {
+      let resultado = 0, numBinarioDesm = [], verificacao = /[8-9]$/g;
+
+      let teste = verificacao.exec(valor);
+
+      if (teste == "8" || teste == "9") { return console.error('O valor inserido não condiz com um número de base octadecimal!'); }
+
+      for (let a = 0; a < valor.toString().length; a++) {
+        numBinarioDesm.push(valor.toString().slice(a, a + 1));
+      }
+
+      for (let a = 0, b = numBinarioDesm.length - 1; a < numBinarioDesm.length, b > -1; a++, b--) {
+        numBinarioDesm[a] = numBinarioDesm[a] * 8 ** b;
+        resultado = resultado + numBinarioDesm[a];
+      }
+
+      return resultado;
+    }
+
+    function formulaOctadecimalHexadecimal(valor = 0) {
+      let resultado = '', numBinarioCons = [], passoIntermediario = [], passoIntermediarioResultado = '', passoFinal = [], verificacao = /[8-9]$/g;
+
+      let teste = verificacao.exec(valor);
+
+      if (teste == "8" || teste == "9") { return console.error('O valor inserido não condiz com um número de base octadecimal!'); }
+
+      for (let a = 0; a < valor.toString().length; a++) {
+
+        numBinarioCons.push(valor.toString().slice(a, a + 1));
+
+        if (numBinarioCons[a] == '0') { passoIntermediario.push('000'); }
+        if (numBinarioCons[a] == '1') { passoIntermediario.push('001'); }
+        if (numBinarioCons[a] == '2') { passoIntermediario.push('010'); }
+        if (numBinarioCons[a] == '3') { passoIntermediario.push('011'); }
+        if (numBinarioCons[a] == '4') { passoIntermediario.push('100'); }
+        if (numBinarioCons[a] == '5') { passoIntermediario.push('101'); }
+        if (numBinarioCons[a] == '6') { passoIntermediario.push('110'); }
+        if (numBinarioCons[a] == '7') { passoIntermediario.push('111'); }
+
+        passoIntermediarioResultado = passoIntermediarioResultado + passoIntermediario[a];
+      }
+
+      passoIntermediarioResultado = passoIntermediarioResultado.match(/[1]+([0-1]+)?/g).toString();
+
+      let divHex = passoIntermediarioResultado.length / 4;
+      divHex = Math.round(divHex);
+
+      if(passoIntermediarioResultado.length == 1) { divHex = 1; }
+      
+      for (let a = 0, b = 0, c = 4; a < divHex; a++, b = b + 4, c = c + 4) {
+        passoFinal.push(passoIntermediarioResultado.slice(b, c));
+      }
+
+      for (let a = 0; a < passoFinal.length; a++) {
+
+        if (passoFinal[a] == '0') { resultado = resultado + '0'; }
+        if (passoFinal[a] == '00') { resultado = resultado + '0'; }
+        if (passoFinal[a] == '000') { resultado = resultado + '0'; }
+        if (passoFinal[a] == '0000') { resultado = resultado + '0'; }
+
+        if (passoFinal[a] == '1') { resultado = resultado + '1'; }
+        if (passoFinal[a] == '01') { resultado = resultado + '1'; }
+        if (passoFinal[a] == '001') { resultado = resultado + '1'; }
+        if (passoFinal[a] == '0001') { resultado = resultado + '1'; }
+
+        if (passoFinal[a] == '10') { resultado = resultado + '2'; }
+        if (passoFinal[a] == '010') { resultado = resultado + '2'; }
+        if (passoFinal[a] == '0010') { resultado = resultado + '2'; }
+
+        if (passoFinal[a] == '11') { resultado = resultado + '3'; }
+        if (passoFinal[a] == '011') { resultado = resultado + '3'; }
+        if (passoFinal[a] == '0011') { resultado = resultado + '3'; }
+
+        if (passoFinal[a] == '100') { resultado = resultado + '4'; }
+        if (passoFinal[a] == '0100') { resultado = resultado + '4'; }
+
+        if (passoFinal[a] == '101') { resultado = resultado + '5'; }
+        if (passoFinal[a] == '0101') { resultado = resultado + '5'; }
+
+        if (passoFinal[a] == '110') { resultado = resultado + '6'; }
+        if (passoFinal[a] == '0110') { resultado = resultado + '6'; }
+
+        if (passoFinal[a] == '111') { resultado = resultado + '7'; }
+        if (passoFinal[a] == '0111') { resultado = resultado + '7'; }
+
+        if (passoFinal[a] == '1000') { resultado = resultado + '8'; }
+
+        if (passoFinal[a] == '1001') { resultado = resultado + '9'; }
+
+        if (passoFinal[a] == '1010') { resultado = resultado + 'A'; }
+
+        if (passoFinal[a] == '1011') { resultado = resultado + 'B'; }
+
+        if (passoFinal[a] == '1100') { resultado = resultado + 'C'; }
+
+        if (passoFinal[a] == '1101') { resultado = resultado + 'D'; }
+
+        if (passoFinal[a] == '1110') { resultado = resultado + 'E'; }
+
+        if (passoFinal[a] == '1111') { resultado = resultado + 'F'; }
+
+      }
+
+      return resultado;
+    }
+
+    function formulaHexadecimalBinario(valor = '') {
+      let resultado = '', numHexDesm = [], verificacaoHex = /[g-zG-Z]/g;
+
+      if (valor.match(verificacaoHex) == 'g' || valor.match(verificacaoHex) == 'h' || valor.match(verificacaoHex) == 'i' || valor.match(verificacaoHex) == 'j' || valor.match(verificacaoHex) == 'k' || valor.match(verificacaoHex) == 'l' || valor.match(verificacaoHex) == 'm' || valor.match(verificacaoHex) == 'n' || valor.match(verificacaoHex) == 'o' || valor.match(verificacaoHex) == 'p' || valor.match(verificacaoHex) == 'q' || valor.match(verificacaoHex) == 'r' || valor.match(verificacaoHex) == 's' || valor.match(verificacaoHex) == 't' || valor.match(verificacaoHex) == 'u' || valor.match(verificacaoHex) == 'v' || valor.match(verificacaoHex) == 'w' || valor.match(verificacaoHex) == 'x' || valor.match(verificacaoHex) == 'y' || valor.match(verificacaoHex) == 'z' || valor.match(verificacaoHex) == 'G' || valor.match(verificacaoHex) == 'H' || valor.match(verificacaoHex) == 'I' || valor.match(verificacaoHex) == 'J' || valor.match(verificacaoHex) == 'K' || valor.match(verificacaoHex) == 'L' || valor.match(verificacaoHex) == 'M' || valor.match(verificacaoHex) == 'N' || valor.match(verificacaoHex) == 'O' || valor.match(verificacaoHex) == 'P' || valor.match(verificacaoHex) == 'Q' || valor.match(verificacaoHex) == 'R' || valor.match(verificacaoHex) == 'S' || valor.match(verificacaoHex) == 'T' || valor.match(verificacaoHex) == 'U' || valor.match(verificacaoHex) == 'V' || valor.match(verificacaoHex) == 'W' || valor.match(verificacaoHex) == 'X' || valor.match(verificacaoHex) == 'Y' || valor.match(verificacaoHex) == 'Z') {
+        return console.error("O valor inserido não condiz com um valor da base hexadecimal!");
+      }
+
+      for (let a = 0; a < valor.length; a++) { numHexDesm.push(valor.slice(a, a + 1)); }
+
+      for (let a = 0; a < numHexDesm.length; a++) {
+
+        if (numHexDesm[a] == '0') { resultado = resultado + '0000'; }
+        if (numHexDesm[a] == '1') { resultado = resultado + '0001'; }
+        if (numHexDesm[a] == '2') { resultado = resultado + '0010'; }
+        if (numHexDesm[a] == '3') { resultado = resultado + '0011'; }
+        if (numHexDesm[a] == '4') { resultado = resultado + '0100'; }
+        if (numHexDesm[a] == '5') { resultado = resultado + '0101'; }
+        if (numHexDesm[a] == '6') { resultado = resultado + '0110'; }
+        if (numHexDesm[a] == '7') { resultado = resultado + '0111'; }
+        if (numHexDesm[a] == '8') { resultado = resultado + '1000'; }
+        if (numHexDesm[a] == '9') { resultado = resultado + '1001'; }
+
+        if (numHexDesm[a] == 'a') { resultado = resultado + '1010'; }
+        if (numHexDesm[a] == 'A') { resultado = resultado + '1010'; }
+
+        if (numHexDesm[a] == 'b') { resultado = resultado + '1011'; }
+        if (numHexDesm[a] == 'B') { resultado = resultado + '1011'; }
+
+        if (numHexDesm[a] == 'c') { resultado = resultado + '1100'; }
+        if (numHexDesm[a] == 'C') { resultado = resultado + '1100'; }
+
+        if (numHexDesm[a] == 'd') { resultado = resultado + '1101'; }
+        if (numHexDesm[a] == 'D') { resultado = resultado + '1101'; }
+
+        if (numHexDesm[a] == 'e') { resultado = resultado + '1110'; }
+        if (numHexDesm[a] == 'E') { resultado = resultado + '1110'; }
+
+        if (numHexDesm[a] == 'f') { resultado = resultado + '1111'; }
+        if (numHexDesm[a] == 'F') { resultado = resultado + '1111'; }
+      }
+
+      resultado = resultado.match(/[1]+([0-1]+)?/g).toString();
+
+      return resultado;
+    }
+
+    function formulaHexadecimalDecimal(valor = '') {
+      let resultado = 0, numHexDesm = [], verificacaoHex = /[g-zG-Z]/g;
+
+      if (valor.match(verificacaoHex) == 'g' || valor.match(verificacaoHex) == 'h' || valor.match(verificacaoHex) == 'i' || valor.match(verificacaoHex) == 'j' || valor.match(verificacaoHex) == 'k' || valor.match(verificacaoHex) == 'l' || valor.match(verificacaoHex) == 'm' || valor.match(verificacaoHex) == 'n' || valor.match(verificacaoHex) == 'o' || valor.match(verificacaoHex) == 'p' || valor.match(verificacaoHex) == 'q' || valor.match(verificacaoHex) == 'r' || valor.match(verificacaoHex) == 's' || valor.match(verificacaoHex) == 't' || valor.match(verificacaoHex) == 'u' || valor.match(verificacaoHex) == 'v' || valor.match(verificacaoHex) == 'w' || valor.match(verificacaoHex) == 'x' || valor.match(verificacaoHex) == 'y' || valor.match(verificacaoHex) == 'z' || valor.match(verificacaoHex) == 'G' || valor.match(verificacaoHex) == 'H' || valor.match(verificacaoHex) == 'I' || valor.match(verificacaoHex) == 'J' || valor.match(verificacaoHex) == 'K' || valor.match(verificacaoHex) == 'L' || valor.match(verificacaoHex) == 'M' || valor.match(verificacaoHex) == 'N' || valor.match(verificacaoHex) == 'O' || valor.match(verificacaoHex) == 'P' || valor.match(verificacaoHex) == 'Q' || valor.match(verificacaoHex) == 'R' || valor.match(verificacaoHex) == 'S' || valor.match(verificacaoHex) == 'T' || valor.match(verificacaoHex) == 'U' || valor.match(verificacaoHex) == 'V' || valor.match(verificacaoHex) == 'W' || valor.match(verificacaoHex) == 'X' || valor.match(verificacaoHex) == 'Y' || valor.match(verificacaoHex) == 'Z') {
+        return console.error("O valor inserido não condiz com um valor da base hexadecimal!");
+      }
+
+      for (let a = 0; a < valor.length; a++) { numHexDesm.push(valor.slice(a, a + 1)); }
+
+      for (let a = 0, b = numHexDesm.length - 1; a < numHexDesm.length, b > -1; a++, b--) {
+
+        if (numHexDesm[a] == 'a') { numHexDesm[a] = 10; }
+        if (numHexDesm[a] == 'A') { numHexDesm[a] = 10; }
+
+        if (numHexDesm[a] == 'b') { numHexDesm[a] = 11; }
+        if (numHexDesm[a] == 'B') { numHexDesm[a] = 11; }
+
+        if (numHexDesm[a] == 'c') { numHexDesm[a] = 12; }
+        if (numHexDesm[a] == 'C') { numHexDesm[a] = 12; }
+
+        if (numHexDesm[a] == 'd') { numHexDesm[a] = 13; }
+        if (numHexDesm[a] == 'D') { numHexDesm[a] = 13; }
+
+        if (numHexDesm[a] == 'e') { numHexDesm[a] = 14; }
+        if (numHexDesm[a] == 'E') { numHexDesm[a] = 14; }
+
+        if (numHexDesm[a] == 'f') { numHexDesm[a] = 15; }
+        if (numHexDesm[a] == 'F') { numHexDesm[a] = 15; }
+
+        numHexDesm[a] = parseInt(numHexDesm[a]) * 16 ** b;
+        resultado = resultado + numHexDesm[a];
+      }
+
+      return resultado;
+    }
+
+    function formulaHexadecimalOctadecimal(valor = '') {
+      let resultado = '', numHexDesm = [], numOctCons = [], verificacaoHex = /[g-zG-Z]/g;
+
+      if (valor.match(verificacaoHex) == 'g' || valor.match(verificacaoHex) == 'h' || valor.match(verificacaoHex) == 'i' || valor.match(verificacaoHex) == 'j' || valor.match(verificacaoHex) == 'k' || valor.match(verificacaoHex) == 'l' || valor.match(verificacaoHex) == 'm' || valor.match(verificacaoHex) == 'n' || valor.match(verificacaoHex) == 'o' || valor.match(verificacaoHex) == 'p' || valor.match(verificacaoHex) == 'q' || valor.match(verificacaoHex) == 'r' || valor.match(verificacaoHex) == 's' || valor.match(verificacaoHex) == 't' || valor.match(verificacaoHex) == 'u' || valor.match(verificacaoHex) == 'v' || valor.match(verificacaoHex) == 'w' || valor.match(verificacaoHex) == 'x' || valor.match(verificacaoHex) == 'y' || valor.match(verificacaoHex) == 'z' || valor.match(verificacaoHex) == 'G' || valor.match(verificacaoHex) == 'H' || valor.match(verificacaoHex) == 'I' || valor.match(verificacaoHex) == 'J' || valor.match(verificacaoHex) == 'K' || valor.match(verificacaoHex) == 'L' || valor.match(verificacaoHex) == 'M' || valor.match(verificacaoHex) == 'N' || valor.match(verificacaoHex) == 'O' || valor.match(verificacaoHex) == 'P' || valor.match(verificacaoHex) == 'Q' || valor.match(verificacaoHex) == 'R' || valor.match(verificacaoHex) == 'S' || valor.match(verificacaoHex) == 'T' || valor.match(verificacaoHex) == 'U' || valor.match(verificacaoHex) == 'V' || valor.match(verificacaoHex) == 'W' || valor.match(verificacaoHex) == 'X' || valor.match(verificacaoHex) == 'Y' || valor.match(verificacaoHex) == 'Z') {
+        return console.error("O valor inserido não condiz com um valor da base hexadecimal!");
+      }
+
+      for (let a = 0; a < valor.length; a++) { numHexDesm.push(valor.slice(a, a + 1)); }
+
+      for (let a = 0, b = numHexDesm.length - 1; a < numHexDesm.length, b > -1; a++, b--) {
+
+        if (numHexDesm[a] == 'a') { numHexDesm[a] = 10; }
+        if (numHexDesm[a] == 'A') { numHexDesm[a] = 10; }
+
+        if (numHexDesm[a] == 'b') { numHexDesm[a] = 11; }
+        if (numHexDesm[a] == 'B') { numHexDesm[a] = 11; }
+
+        if (numHexDesm[a] == 'c') { numHexDesm[a] = 12; }
+        if (numHexDesm[a] == 'C') { numHexDesm[a] = 12; }
+
+        if (numHexDesm[a] == 'd') { numHexDesm[a] = 13; }
+        if (numHexDesm[a] == 'D') { numHexDesm[a] = 13; }
+
+        if (numHexDesm[a] == 'e') { numHexDesm[a] = 14; }
+        if (numHexDesm[a] == 'E') { numHexDesm[a] = 14; }
+
+        if (numHexDesm[a] == 'f') { numHexDesm[a] = 15; }
+        if (numHexDesm[a] == 'F') { numHexDesm[a] = 15; }
+
+        numHexDesm[a] = parseInt(numHexDesm[a]) * 16 ** b;
+
+        while (numHexDesm[a] > 0) {
+          let resto = numHexDesm[a] % 8; numHexDesm[a] = numHexDesm[a] / 8;
+
+          if (resto == 0) { numOctCons.push('0'); }
+          if (resto == 1) { numOctCons.push('1'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+          if (resto == 2) { numOctCons.push('2'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+          if (resto == 3) { numOctCons.push('3'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+          if (resto == 4) { numOctCons.push('4'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+          if (resto == 5) { numOctCons.push('5'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+          if (resto == 6) { numOctCons.push('6'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+          if (resto == 7) { numOctCons.push('7'); numHexDesm[a] = parseInt(numHexDesm[a]); }
+        }
+
+        for (let a = numOctCons.length; a > 0; a--) {
+          resultado = resultado + numOctCons[a - 1];
+        }
+      }
+      resultado = parseInt(resultado);
+
+      return resultado;
+    }
+
+
+    let chaves = ['t01_binário', 't02_decimal', 't03_octadecimal', 't04_hexadecimal'];
+
+    switch(input) {
+      case 1:
+        input = chaves[0];
+        break;
+      case 2:
+        input = chaves[1];
+        break;
+      case 3:
+        input = chaves[2];
+        break;
+      case 4:
+        input = chaves[3];
+        break;
+    }
+
+    switch(output) {
+      case 1:
+        output = chaves[0];
+        break;
+      case 2:
+        output = chaves[1];
+        break;
+      case 3:
+        output = chaves[2];
+        break;
+      case 4:
+        output = chaves[3];
+        break;
+    }
+
+    let combinacao = [[input], [output]];
+
+    switch(combinacao[0][0]) {
+      case 't01_binário':
+        switch(combinacao[1][0]) {
+          case 't02_decimal':
+            return formulaBinarioDecimal(valor);
+          case 't03_octadecimal':
+            return formulaBinarioOctadecimal(valor);
+          case 't04_hexadecimal':
+            return formulaBinarioHexadecimal(valor);
+        }
+        break;
+      case 't02_decimal':
+        switch(combinacao[1][0]) {
+          case 't01_binário':
+            return formulaDecimalBinario(valor);
+          case 't03_octadecimal':
+            return formulaDecimalOctadecimal(valor);
+          case 't04_hexadecimal':
+            return formulaDecimalHexadecimal(valor);
+        }
+        break;
+      case 't03_octadecimal':
+        switch(combinacao[1][0]) {
+          case 't01_binário':
+            return formulaOctadecimalBinario(valor);
+          case 't02_decimal':
+            return formulaOctadecimalDecimal(valor);
+          case 't04_hexadecimal':
+            return formulaOctadecimalHexadecimal(valor);
+        }
+        break;
+      case 't04_hexadecimal':
+        switch(combinacao[1][0]) {
+          case 't01_binário':
+            return formulaHexadecimalBinario(valor);
+          case 't02_decimal':
+            return formulaHexadecimalDecimal(valor);
+          case 't03_octadecimal':
+            return formulaHexadecimalOctadecimal(valor);
+        }
+        break;
+    }
   }
 
 }

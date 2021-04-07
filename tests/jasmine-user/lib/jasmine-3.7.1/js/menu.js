@@ -1,5 +1,6 @@
 const cabecalhoConteiner = document.getElementById("cab_cont");
-const navegacaoConteiner = document.getElementById("nav_cont");
+const navScrollBase = document.getElementById("nav_scroll_b");
+const navItems = document.querySelectorAll(".navegation_item");
 
 setTimeout(() => {
   
@@ -36,3 +37,5 @@ document.addEventListener('scroll', () => {
     cabecalhoConteiner.style.color = "#ffffff";
   }
 });
+
+navScrollBase.style.width = "100vw";

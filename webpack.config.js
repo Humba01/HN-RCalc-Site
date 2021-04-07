@@ -2,12 +2,12 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './public/js/index.js',
+  entry: './public/js/htmls/loader.js',
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    publicPath: '/public/',
+    port: 9001,
     liveReload: true,
     compress: true,
-    port: 9090,
+    watchContentBase: true,
+    contentBase: './public',
   },
 };

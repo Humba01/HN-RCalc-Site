@@ -17,3 +17,8 @@
     font-family: 'Electrolize-Regular';
     src: url('../fonts/Electrolize/Electrolize-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'Exo2-Regular';
+    src: url('../fonts/Exo_2/Exo2-VariableFont_wght.ttf');
+}

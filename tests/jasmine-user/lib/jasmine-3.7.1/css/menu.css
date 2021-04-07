@@ -34,10 +34,6 @@
   display: none;
 }
 
-.navegation_scroll_base {
-  width: 98vw;
-}
-
 .navegation_item {
   padding: 0.4vw 0.4vw;
   border-radius: 4px;

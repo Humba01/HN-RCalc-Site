@@ -1852,6 +1852,30 @@ describe("Módulos da Calculadora", () => {
   
   describe("04_10-Radiciação de Logarítmos", () => {});
 
+  describe("05_01-Soma de Números Complexos", () => {});
+  
+  describe("05_02-Subtração de Números Complexos", () => {});
+  
+  describe("05_03-Multiplicação de Números Complexos", () => {});
+  
+  describe("05_04-Divisão de Números Complexos", () => {});
+  
+  describe("05_05-Potência de Números Complexos", () => {});
+  
+  describe("05_06-Potência de Potência de Números Complexos", () => {});
+  
+  describe("05_07-Raiz Quadrada de Números Complexos", () => {});
+  
+  describe("05_08-Raiz Cúbica de Números Complexos", () => {});
+  
+  describe("05_09-Raiz Biquadrada de Números Complexos", () => {});
+  
+  describe("05_10-Raiz Bicúbica de Números Complexos", () => {});
+
+  describe("05_11-Potências de i", () => {});
+
+  describe("05_12-Módulo e Argumento", () => {});
+
   describe("06_01-Regra de Três Simples", () => {
 
     it("Realiza a regra de três simples com valores positivos", () => {
@@ -1904,7 +1928,7 @@ describe("Módulos da Calculadora", () => {
 
   });
 
-  describe("06_02-Regra de Três Composta -- Fazer ajustes importantes", () => {
+  describe("06_02-Regra de Três Composta", () => {
 
     it("Realiza a regra de três composta com valores positivos e 1 variável", () => {
       let modulos = new Modules();
@@ -1977,18 +2001,202 @@ describe("Módulos da Calculadora", () => {
       let value = "2", values = ["2", "3"];
       expect(modulos.regraDeTresComposta(value, values, true, false, 0)).not.toBe(1);
     });
-    
-    it("Realiza a regra de três composta com valores fornecidos pelo autoInput e 3 variáveis", () => {
+
+    it("Realiza a regra de três composta com números positivos, 1 variável e 3 grandezas", () => {
       let modulos = new Modules();
-      let value = "3", values = ["2", "3", "4"];
-      expect(modulos.regraDeTresComposta(value, values, true, false, 0)).not.toBe(1);
+      let value = "1", values = ["2", "3", "4", "5", "6"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números positivos, 2 variáveis e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2", "3", "4", "5", "6", "2", "3", "4", "5", "6"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números positivos, 1 variável e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2", "3", "4", "5", "6", "2", "8"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números positivos, 2 variáveis e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2", "3", "4", "5", "6", "2", "3", "4", "5", "6", "7", "7", "6", "4"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números negativos, 1 variável e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["-2", "-3", "-4", "-5", "-6"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+
+    it("Realiza a regra de três composta com números negativos, 2 variáveis e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["-2", "-3", "-4", "-5", "-6", "-2", "-3", "-4", "-5", "-6"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números negativos, 1 variável e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["-2", "-3", "-4", "-5", "-6", "-2", "-8"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);  
+    });
+    
+    it("Realiza a regra de três composta com números negativos, 2 variáveis e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["-2", "-3", "-4", "-5", "-6", "-2", "-8", "-2", "-3", "-4", "-5", "-6", "-2", "-8"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);  
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos, 1 variável e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2", "-3", "4", "5", "6"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);  
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos, 2 variáveis e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2", "-3", "4", "5", "6", "-2", "-8", "2", "3", "-4"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);    
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos, 1 variável e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2", "-3", "4", "5", "6", "-2", "-8"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);    
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos, 2 variáveis e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2", "-3", "4", "5", "6", "-2", "-8", "2", "3", "-4", "5", "6", "-5", "9"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);    
+    });
+
+    it("Realiza a regra de três composta com números positivos decimais, 1 variável e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2.1", "3.1", "4.1", "5.1", "6.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números positivos decimais, 2 variáveis e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2.1", "3.1", "4.1", "5.1", "6.1", "2.1", "3.1", "4.1", "5.1", "6.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números positivos decimais, 1 variável e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2.1", "3.1", "4.1", "5.1", "6.1", "2.1", "8.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números positivos decimais, 2 variáveis e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2.1", "3.1", "4.1", "5.1", "6.1", "2.1", "3.1", "4.1", "5.1", "6.1", "7.1", "7.1", "6.1", "4.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números negativos decimais, 1 variável e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["-2.1", "-3.1", "-4.1", "-5.1", "-6.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+
+    it("Realiza a regra de três composta com números negativos decimais, 2 variáveis e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["-2.1", "-3.1", "-4.1", "-5.1", "-6.1", "-2.1", "-3.1", "-4.1", "-5.1", "-6.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);
+    });
+    
+    it("Realiza a regra de três composta com números negativos decimais, 1 variável e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["-2.1", "-3.1", "-4.1", "-5.1", "-6.1", "-2.1", "-8.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);  
+    });
+    
+    it("Realiza a regra de três composta com números negativos decimais, 2 variáveis e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["-2.1", "-3.1", "-4.1", "-5.1", "-6.1", "-2.1", "-8.1", "-2.1", "-3.1", "-4.1", "-5.1", "-6.1", "-2.1", "-8.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);  
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos decimais, 1 variável e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2.1", "-3.1", "4.1", "5.1", "6.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);  
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos decimais, 2 variáveis e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2.1", "-3.1", "4.1", "5.1", "6.1", "-2.1", "-8.1", "2.1", "3.1", "-4.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).not.toBe(1);    
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos decimais, 1 variável e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["2.1", "-3.1", "4.1", "5.1", "6.1", "-2.1", "-8.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);    
+    });
+    
+    it("Realiza a regra de três composta com números positivos e negativos decimais, 2 variáveis e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["2.1", "-3.1", "4.1", "5.1", "6.1", "-2.1", "-8.1", "2.1", "3.1", "-4.1", "5.1", "6.1", "-5.1", "9.1"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).not.toBe(1);    
+    });
+    
+    it("Realiza a regra de três composta com números nulos e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["0"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).toBe(0);    
+    });
+    
+    it("Realiza a regra de três composta com números vazios ou inexistentes e 3 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = [""];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 3)).toBe(0);      
+    });
+    
+    it("Realiza a regra de três composta com números nulos e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["0"];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).toBe(0);      
+    });
+    
+    it("Realiza a regra de três composta com números vazios ou inexistentes e 4 grandezas", () => {
+      let modulos = new Modules();
+      let value = "1", values = [""];
+      expect(modulos.regraDeTresComposta(value, values, false, true, 4)).toBe(0);      
+    });
+    
+    it("Realiza a regra de três composta com números fornecidos pelo autoInput, com 3 grandezas e 1 variável", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["5"];
+      expect(modulos.regraDeTresComposta(value, values, true, true, 3)).not.toBe(1);      
+    });
+    
+    it("Realiza a regra de três composta com números fornecidos pelo autoInput, com 3 grandezas e 2 variáveis", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["5"];
+      expect(modulos.regraDeTresComposta(value, values, true, true, 3)).not.toBe(1);      
+    });
+    
+    it("Realiza a regra de três composta com números fornecidos pelo autoInput, com 4 grandezas e 1 variável", () => {
+      let modulos = new Modules();
+      let value = "1", values = ["5"];
+      expect(modulos.regraDeTresComposta(value, values, true, true, 4)).not.toBe(1);      
+    });
+    
+    it("Realiza a regra de três composta com números fornecidos pelo autoImput, com 4 grandezas e 2 variáveis", () => {
+      let modulos = new Modules();
+      let value = "2", values = ["5"];
+      expect(modulos.regraDeTresComposta(value, values, true, true, 4)).not.toBe(1);      
     });
 
   });
 
-  describe("07_01-Conversor de Bases Monetárias", () => {});
-
-  describe("07_02-Conversor de Bases Techno", () => {
+  describe("07_01-Conversor de Bases Techno", () => {
 
     describe("Bits", () => {
     
@@ -10781,79 +10989,299 @@ describe("Módulos da Calculadora", () => {
       });
 
     });
+  
+  });
+
+  describe("07_02-Conversor de Bases Techno Numéricos", () => {
+  
+    it("Realiza a conversão de Binário para Decimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = '1';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 2)).toBe(1);
+    });
+  
+    it("Realiza a conversão de Binário para Decimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = '10';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 2)).toBe(2);
+    });
+  
+    it("Realiza a conversão de Binário para Decimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = '11';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 2)).toBe(3);
+    });
+  
+    it("Realiza a conversão de Binário para Decimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = '100';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 2)).toBe(4);
+    });
+  
+    it("Realiza a conversão de Binário para Octadecimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = '1';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 3)).toBe(1);
+    });
+  
+    it("Realiza a conversão de Binário para Octadecimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = '10';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 3)).toBe(2);
+    });
+  
+    it("Realiza a conversão de Binário para Octadecimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = '11';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 3)).toBe(3);
+    });
+  
+    it("Realiza a conversão de Binário para Octadecimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = '100';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 3)).toBe(4);
+    });
+  
+    it("Realiza a conversão de Binário para Hexadecimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = '1';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 4)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Binário para Hexadecimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = '10';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 4)).toBe('2');
+    });
+  
+    it("Realiza a conversão de Binário para Hexadecimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = '11';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 4)).toBe('3');
+    });
+  
+    it("Realiza a conversão de Binário para Hexadecimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = '100';
+      expect(modulos.convBasesTechnoNumericos(value, 1, 4)).toBe('4');
+    });
+  
+    it("Realiza a conversão de Decimal para Binário, do número 1", () => {
+      let modulos = new Modules();
+      let value = 1;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 1)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Decimal para Binário, do número 2", () => {
+      let modulos = new Modules();
+      let value = 2;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 1)).toBe('10');
+    });
+  
+    it("Realiza a conversão de Decimal para Binário, do número 3", () => {
+      let modulos = new Modules();
+      let value = 3;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 1)).toBe('11');
+    });
+  
+    it("Realiza a conversão de Decimal para Binário, do número 4", () => {
+      let modulos = new Modules();
+      let value = 4;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 1)).toBe('100');
+    });
+  
+    it("Realiza a conversão de Decimal para Octadecimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = 1;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 3)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Decimal para Octadecimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = 2;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 3)).toBe('2');
+    });
+  
+    it("Realiza a conversão de Decimal para Octadecimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = 3;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 3)).toBe('3');
+    });
+  
+    it("Realiza a conversão de Decimal para Octadecimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = 4;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 3)).toBe('4');
+    });
+  
+    it("Realiza a conversão de Decimal para Hexadecimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = 1;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 4)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Decimal para Hexadecimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = 2;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 4)).toBe('2');
+    });
+  
+    it("Realiza a conversão de Decimal para Hexadecimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = 3;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 4)).toBe('3');
+    });
+  
+    it("Realiza a conversão de Decimal para Hexadecimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = 4;
+      expect(modulos.convBasesTechnoNumericos(value, 2, 4)).toBe('4');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Binário, do número 1", () => {
+      let modulos = new Modules();
+      let value = 1;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 1)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Binário, do número 2", () => {
+      let modulos = new Modules();
+      let value = 2;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 1)).toBe('10');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Binário, do número 3", () => {
+      let modulos = new Modules();
+      let value = 3;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 1)).toBe('11');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Binário, do número 4", () => {
+      let modulos = new Modules();
+      let value = 4;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 1)).toBe('100');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Decimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = 1;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 2)).toBe(1);
+    });
+  
+    it("Realiza a conversão de Octadecimal para Decimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = 2;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 2)).toBe(2);
+    });
+  
+    it("Realiza a conversão de Octadecimal para Decimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = 3;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 2)).toBe(3);
+    });
+  
+    it("Realiza a conversão de Octadecimal para Decimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = 4;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 2)).toBe(4);
+    });
+ 
+    it("Realiza a conversão de Octadecimal para Hexadecimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = 1;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 4)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Hexadecimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = 2;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 4)).toBe('2');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Hexadecimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = 3;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 4)).toBe('3');
+    });
+  
+    it("Realiza a conversão de Octadecimal para Hexadecimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = 4;
+      expect(modulos.convBasesTechnoNumericos(value, 3, 4)).toBe('4');
+    });
+ 
+    it("Realiza a conversão de Hexadecimal para Binário, do número 1", () => {
+      let modulos = new Modules();
+      let value = '1';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 1)).toBe('1');
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Binário, do número 2", () => {
+      let modulos = new Modules();
+      let value = '2';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 1)).toBe('10');
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Binário, do número 3", () => {
+      let modulos = new Modules();
+      let value = '3';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 1)).toBe('11');
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Binário, do número 4", () => {
+      let modulos = new Modules();
+      let value = '4';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 1)).toBe('100');
+    });
+ 
+    it("Realiza a conversão de Hexadecimal para Decimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = '1';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 2)).toBe(1);
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Decimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = '2';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 2)).toBe(2);
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Decimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = '3';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 2)).toBe(3);
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Decimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = '4';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 2)).toBe(4);
+    });
+ 
+    it("Realiza a conversão de Hexadecimal para Octadecimal, do número 1", () => {
+      let modulos = new Modules();
+      let value = '1';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 3)).toBe(1);
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Octadecimal, do número 2", () => {
+      let modulos = new Modules();
+      let value = '2';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 3)).toBe(2);
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Octadecimal, do número 3", () => {
+      let modulos = new Modules();
+      let value = '3';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 3)).toBe(3);
+    });
+  
+    it("Realiza a conversão de Hexadecimal para Octadecimal, do número 4", () => {
+      let modulos = new Modules();
+      let value = '4';
+      expect(modulos.convBasesTechnoNumericos(value, 4, 3)).toBe(4);
+    });
 
   });
 
-  describe("07_03-Conversor de Bases Techno Computacionais", () => {});
-
-  describe("07_04-Conversor de Bases Math de Ângulo Comum", () => {});
-
-  describe("07_05-Conversor de Bases Math de Ângulo Plano", () => {});
-
-  describe("07_06-Conversor de Bases Math de Ângulo Sólido", () => {});
-
-  describe("07_07-Conversor de Bases Math de Comprimento", () => {});
-
-  describe("07_08-Conversor de Bases Math de Área", () => {});
-
-  describe("07_09-Conversor de Bases Math de Volume", () => {});
-
-  describe("07_10-Conversor de Bases Math de 4 Dimensões", () => {});
-
-  describe("07_11-Conversor de Bases Math de 5 Dimensões", () => {});
-
-  describe("07_12-Conversor de Bases Math de 6 Dimensões", () => {});
-
-  describe("07_13-Conversor de Bases Math de Massa", () => {});
-
-  describe("07_14-Conversor de Bases Physic de Tempo", () => {});
-  
-  describe("07_15-Conversor de Bases Physic de Pressão", () => {});
-  
-  describe("07_16-Conversor de Bases Physic de Temperatura", () => {});
-  
-  describe("07_17-Conversor de Bases Physic de Fluxo Magnético", () => {});
-  
-  describe("07_18-Conversor de Bases Physic de Frequência", () => {});
-  
-  describe("07_19-Conversor de Bases Physic de Força", () => {});
-  
-  describe("07_20-Conversor de Bases Physic de Velocidade", () => {});
-  
-  describe("07_21-Conversor de Bases Physic de Aceleração", () => {});
-  
-  describe("07_22-Conversor de Bases Physic de Energia", () => {});
-  
-  describe("07_23-Conversor de Bases Physic de Potência", () => {});
-  
-  describe("07_24-Conversor de Bases Physic de Carga Elétrica", () => {});
-  
-  describe("07_25-Conversor de Bases Physic da Diferença de Potencial Elétrico", () => {});
-  
-  describe("07_26-Conversor de Bases Physic de Capacitância", () => {});
-  
-  describe("07_27-Conversor de Bases Physic da Resistência Elétrica", () => {});
-  
-  describe("07_28-Conversor de Bases Physic da Condutância Elétrica", () => {});
-  
-  describe("07_29-Conversor de Bases Physic do Fluxo de Indução Magnética", () => {});
-  
-  describe("07_30-Conversor de Bases Physic da Indução Magnética", () => {});
-  
-  describe("07_31-Conversor de Bases Physic da Indutância", () => {});
-  
-  describe("07_32-Conversor de Bases Physic do Fluxo Luminoso", () => {});
-  
-  describe("07_33-Conversor de Bases Physic da Iluminância", () => {});
-  
-  describe("07_34-Conversor de Bases Chemical de Atividade Radionuclear", () => {});
-  
-  describe("07_35-Conversor de Bases Chemical de Dose Absorvida", () => {});
-  
-  describe("07_36-Conversor de Bases Chemical de Dose Equivalente", () => {});
-  
-  describe("07_37-Conversor de Bases Chemical de Atividade Catalítica", () => {});
-  
-  describe("07_38-Conversor de Bases Chemical de Massa Específica", () => {});
-  
 });
