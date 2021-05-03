@@ -17,14 +17,14 @@
 .cabecalho_imagem {
     display: inline-block;
     width: 69px;
-    height: 60px;
-    margin-top: 1vw;
-    margin-bottom: -1vw;
+    height: 69px;
+    margin-top: 0vw;
+    margin-bottom: -1.5vw;
 }
 
 .cabecalho_titulo {
     display: inline-block;
-    font-family: "Ubuntu-Light";
+    font-family: "Exodus-Evolution-Regular";
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 1vw;
@@ -36,9 +36,10 @@
     font-family: "Baumans-Regular";
     font-size: 22px;
     font-weight: 800;
-    margin-left: 36vw;
-    border-bottom: #666666 2px solid;
-    border-right: #666666 2.2px solid;
-    border-radius: 8px;
+    margin-left: 48vw;
+    align-content: center;
+    border-left: #ffcc11 2px solid;
+    border-bottom: #ffcc11 2px solid;
+    border-radius: 12px;
     padding: 0.4vw 0.4vw;
 }

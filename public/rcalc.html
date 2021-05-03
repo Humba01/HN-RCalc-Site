@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" lang="pt-br"/>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <title>Humbanew RCalc | A Calculadora dos sonhos.</title>
-    <link rel="icon" href="svg/logo/new-logo/Humbanew Logo (Design) - 2.0 - 12º Gen - Branco.svg"/>
+    <link rel="icon" href="svg/logotypes-reborn/Humbanew_RCalc_Logotype.svg"/>
 
     <!-- build:css css/rcalc_page.css -->
 
@@ -25,113 +26,82 @@
     
     <header class="cabecalho_conteiner">
       <div class="cabecalho_cont_parent" id="btn_main">
-        <img src="svg/logo/new-logo/Humbanew Logo (Design) - 2.0 - 12º Gen - Preto.svg" alt="Humbanew Logo" class="logo_part_i"/>
-        <div class="cab_conteiner_title">
-          <h1 class="text1_title">Humbanew RCalc</h1>
-          <p class="text2_title" id="beta_text">Alpha&Beta</p>
+        
+        <div class="cabecalho_components">
+          <img class="logotype" src="svg/logotypes-reborn/Humbanew_RCalc_Logotype.svg" alt="HN RCalc Logo"/>
+          <p class="logotype_text">RCalc</p>
+          <p class="version">Beta</p>
         </div>
-        <img class="button_menu" id="btn_menu" src="svg/icons/opitions_comum.svg"/>
+
+        <div class="cabecalho_components_piece">
+  
+          <div class="cabecalho_components_search">
+            <input class="pesquisa" type="search" id="barra_de_pesquisa" placeholder="Pesquise coisas incríveis!"/>
+          </div>
+  
+          <div class="cabecalho_components_menu">
+            <p class="menu_n_item">Início</p>
+            <p class="menu_n_item">Huon</p>
+            <p class="menu_n_item">Entourage</p>
+            <p class="menu_n_item">Vibes</p>
+          </div>
+  
+          <div class="cabecalho_components_menu_lateral">
+            <img class="cabecalho_menu_img" src="svg/icons/opitions_comum.svg"/>
+          </div>
+          
+        </div>
+      
       </div>
     </header>
 
-    <section class="menu_conteiner" id="menu_lateral">
-      <h2 class="menu_item">Página principal</h2>
-      <div class="menu_categoria_cont">
-        <h3 class="menu_categoria_titulo">Modos</h3>
-        <ol class="menu_categoria_lista">
-          <li class="menu_categoria_item">
-            <p class="menu_categoria_item__texto" id="comum_card_menu">Comum</p>
-          </li>
-          <li class="menu_categoria_item">
-            <p class="menu_categoria_item__texto" id="cientifica_card_menu">Científica</p>
-          </li>
-          <li class="menu_categoria_item">
-            <p class="menu_categoria_item__texto" id="suprema_card_menu">Suprema</p>
-          </li>
-          <li class="menu_categoria_item" id="desm_c_menu">
-            <p class="menu_categoria_item__texto" id="desmontada_card_menu">Desmontada</p>
-            <ol class="menu_subcategoria_lista">
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Covencionais</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Trigonométricas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Arcos Trigonométricos</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Logarítmas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Conversores de Bases</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas Matemáticas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas Físicas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas Químicas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas Biológicas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas Geográficas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas Históricas</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas de Transformação</p>
-              </li>
-              <li class="menu_subcategoria_item">
-                <p class="menu_subcategoria_texto">Fórmulas de Demonstração</p>
-              </li>
-            </ol>
-          </li>
-          <li class="menu_categoria_item">
-            <p class="menu_categoria_item__texto" id="grafica_card_menu">Gráfica</p>
-          </li>
-        </ol>
-      </div>
-    </section>
+    <section class="menu_lateral"></section>
 
     <span class="rcalc_warning" id="warning">Nenhum Aviso.</span>
     
     <section class="rcalc_count_conteiner">
-      <p class="rcalc_count_item" id="setores">Setores: 0</p>
-      <p class="rcalc_count_item" id="funcoes">Funcionalidades: 0</p>
+      <div id="modos">
+        <p class="rcalc_count_item">Modos: 0</p>
+      </div>
+      <div id="setores">
+        <p class="rcalc_count_item">Setores: 0</p>
+      </div>
+      <div id="funcoes">
+        <p class="rcalc_count_item">Funcionalidades: 0</p>
+      </div>
     </section>
 
     <section class="rcalc_slogan">
+      <canvas class="rcalc_slogan_animation" id="slogan_animation"></canvas>
       <p class="rcalc_text_slogan" id="slogan">A Calculadora dos sonhos.</p>
     </section>
 
     <section class="rcalc_options">
       <h1 class="rcalc_options__title">Modos de Funcionamento:</h1>
       <div class="rcalc_option__cont_super">
-        <div class="rcalc_option__cont" id="comum_card">
+        <div class="rcalc_option__cont modes_count" id="comum_card">
           <p class="rcalc_option__item">Comum</p>
           <p class="rcalc_option__item___descricao">A forma mais popular de uma Calculadora.</p>
         </div>
-        <div class="rcalc_option__cont" id="cientifica_card">
+        <div class="rcalc_option__cont modes_count" id="cientifica_card">
           <p class="rcalc_option__item">Científica</p>
           <p class="rcalc_option__item___descricao">A forma criada para cálculos avançados.</p>
         </div>
-        <div class="rcalc_option__cont" id="suprema_card">
+        <div class="rcalc_option__cont modes_count" id="suprema_card">
           <p class="rcalc_option__item">Suprema</p>
           <p class="rcalc_option__item___descricao">A forma mais complexa e completa de uma Calculadora.</p>
         </div>
-        <div class="rcalc_option__cont" id="desmontada_card">
+        <div class="rcalc_option__cont modes_count" id="desmontada_card">
           <p class="rcalc_option__item">Desmontada</p>
           <p class="rcalc_option__item___descricao">A forma mais incomum de fazer cálculos.</p>
         </div>
-        <div class="rcalc_option__cont" id="grafica_card">
+        <div class="rcalc_option__cont modes_count" id="grafica_card">
           <p class="rcalc_option__item">Gráfica</p>
           <p class="rcalc_option__item___descricao">A forma onde são mostrados detalhes mais profundos.</p>
+        </div>
+        <div class="rcalc_option__cont modes_count" id="programador_card">
+          <p class="rcalc_option__item">Programador</p>
+          <p class="rcalc_option__item___descricao">A forma onde os programadores encontram resultados.</p>
         </div>
       </div>
     </section>
@@ -153,41 +123,41 @@
           <p class="rcalc_suboptions_texto sectors_count">Logarítmas</p>
         </li>
         <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Antilogarítmas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Cologarítmas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
           <p class="rcalc_suboptions_texto sectors_count">Complexas</p>
+        </li>
+        <li class="rcalc_suboptions_item">
+          <p class="rcalc_suboptions_texto sectors_count">Complexas Trigonométricas</p>
         </li>
         <li class="rcalc_suboptions_item">
           <p class="rcalc_suboptions_texto sectors_count">Conversores de Bases</p>
         </li>
         <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Matemáticas</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Físicas</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Químicas</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Biológicas</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Geográficas</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas Históricas</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas de Transformação</p>
-        </li>
-        <li class="rcalc_suboptions_item">
-          <p class="rcalc_suboptions_texto sectors_count">Fórmulas de Demonstração</p>
+          <p class="rcalc_suboptions_texto sectors_count">Calculistas</p>
         </li>
       </ol>
     </section>
 
+    <!-- Scripts da Página HTML -->
     <script src="js/htmls/HtmlPageConstructor.js"></script>
     <script src="js/htmls/loader.js"></script>
+
+    <!-- Scripts de Configuração da Página -->
     <script src="js/config/config.js"></script>
+    <script src="js/config/slogan.js"></script>
+
+    <!-- Scripts de Extensões -->
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.9.0/brython.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.9.0/brython_stdlib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.0"> </script>
+    <script src="https://www.lactame.com/lib/ml/2.2.0/ml.min.js"></script>
+    <script src="https://unpkg.com/propel@3.1.0"></script>
+    <script src="https://unpkg.com/brain.js"></script>
 
   </body>
   <footer>
@@ -195,25 +165,35 @@
       <div class="rodape_letreiro_conteiner">
         <h2 class="rodape_letreiro">Humbanew</h2>
       </div>
-      <div class="rodape_infos_conteiner">
-        <div class="rodape_infos_conteiner_secundario">
-          <h3 class="rodape_infos_titulo">Subdivisões</h3>
-          <ol class="rodape_infos_lista">
-            <li class="rodape_infos_item">Heverdev</li>
-            <li class="rodape_infos_item">Treatplay</li>
-            <li class="rodape_infos_item">Worldteam</li>
-          </ol>
+      <div class="rodape_infos">
+        <div class="rodape_infos_conteiner">
+          <div class="rodape_infos_conteiner_secundario">
+            <h3 class="rodape_infos_titulo">Subdivisões</h3>
+            <ol class="rodape_infos_lista">
+              <li class="rodape_infos_item">Huon</li>
+              <li class="rodape_infos_item">Vibes</li>
+              <li class="rodape_infos_item">Entourage</li>
+            </ol>
+          </div>
         </div>
-      </div>
-      <div class="rodape_infos_conteiner">
-        <div class="rodape_infos_conteiner_secundario">
-          <h3 class="rodape_infos_titulo">Serviços</h3>
-          <ol class="rodape_infos_lista">
-            <li class="rodape_infos_item">RCalc</li>
-            <li class="rodape_infos_item">DPass</li>
-            <li class="rodape_infos_item">UNote</li>
-            <li class="rodape_infos_item">SGMP</li>
-          </ol>
+        <div class="rodape_infos_conteiner">
+          <div class="rodape_infos_conteiner_secundario">
+            <h3 class="rodape_infos_titulo">Softwares & Serviços</h3>
+            <ol class="rodape_infos_lista">
+              <li class="rodape_infos_item">RCalc</li>
+              <li class="rodape_infos_item">UNote</li>
+              <li class="rodape_infos_item">DPass</li>
+              <li class="rodape_infos_item">WCube</li>
+              <li class="rodape_infos_item">XColors</li>
+              <li class="rodape_infos_item">Helps</li>
+              <li class="rodape_infos_item">YImage</li>
+              <li class="rodape_infos_item">Inquiry</li>
+              <li class="rodape_infos_item">Styrim</li>
+              <li class="rodape_infos_item">Nikko</li>
+              <li class="rodape_infos_item">SGMP</li>
+              <li class="rodape_infos_item">OS</li>
+            </ol>
+          </div>
         </div>
       </div>
       <div class="rodape_copyright">

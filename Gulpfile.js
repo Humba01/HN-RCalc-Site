@@ -38,3 +38,34 @@ gulp.task('testServer', function() {
   );
 
 });
+
+gulp.task('webkitDev', function() {
+
+  gulp.src('./tests/')
+  .pipe(devServer({
+      port: 5001,
+      livereload: {
+        port: 50001,
+        clientConsole: true
+      },
+      proxy: {
+        enable: true,
+      }
+    })
+  );
+  
+  gulp.src('./public/')
+  .pipe(devServer({
+      port: 3001,
+      livereload: {
+        port: 30001,
+        clientConsole: true
+      },
+      proxy: {
+        enable: true,
+      }
+    })
+  );
+
+});
+

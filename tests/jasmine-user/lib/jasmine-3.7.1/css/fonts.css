@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'Exodus-Evolution-Regular';
+    src: url('../fonts/Exodus_Evolution_Regular.otf');
+}
+
+@font-face {
     font-family: 'Ubuntu-Light';
     src: url('../fonts/Ubuntu-Light.ttf');
 }

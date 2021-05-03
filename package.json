@@ -6,7 +6,8 @@
   "scripts": {
     "server-webpack": "webpack serve",
     "server-gulp": "gulp server",
-    "server-test-gulp": "gulp testServer"
+    "server-test-gulp": "gulp testServer",
+    "server-webkit-dev": "gulp webkitDev"
   },
   "repository": {
     "type": "git",

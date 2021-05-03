@@ -2,6 +2,8 @@ const cabecalhoConteiner = document.getElementById("cab_cont");
 const navScrollBase = document.getElementById("nav_scroll_b");
 const navItems = document.querySelectorAll(".navegation_item");
 
+const cabecalhoImg = document.getElementById("cab_img");
+
 setTimeout(() => {
   
   let menuItemJasmine = document.getElementById("jasmine");
@@ -38,4 +40,4 @@ document.addEventListener('scroll', () => {
   }
 });
 
-navScrollBase.style.width = "100vw";
+navScrollBase.style.width = "130vw";

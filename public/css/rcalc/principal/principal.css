@@ -9,37 +9,50 @@
   border-radius: 8px;
   position: fixed;
   z-index: 2;
-  top: 9vw;
+  top: 7vw;
   left: 0;
   width: 98vw;
 }
 
 .rcalc_count_conteiner {
-  display: inline-block;
+  display: flex;
   font-family: 'Electrolize-Regular';
   font-size: 28px;
+  text-align: right;
   position: fixed;
   z-index: 2;
   bottom: 6px;
-  text-align: right;
   right: 0;
   color: #00ff99;
   text-shadow: #66ffaa 0px 2px;
-  margin-right: 0.5vw;
-  margin-bottom: 0.5vw;
-  width: 30vw;
+  margin-right: 0.1vw;
+  padding-bottom: 0.1vw;
+}
+
+#modos {
+  background-color: #333333cc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-top: -0.05vw;
+  padding: 0.4vw 0.6vw;
+  border-bottom: #44ff66 4px solid;
 }
 
 #funcoes {
+  background-color: #333333cc;
   border-top-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  padding: 0.4vw 0.6vw;
+  border-bottom: #00ff33 4px solid;
 }
 
 #setores {
+  background-color: #333333cc;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  padding: 0.4vw 0.6vw;
   margin-top: -0.05vw;
+  border-bottom: #00ff66 4px solid;
 }
 
 .rcalc_count_item {
@@ -73,29 +86,35 @@
 .rcalc_option__cont {
   display: inline-block;
   font-family: 'Baumans-Regular';
-  background-color: #666666;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #00ff99;
   font-size: 2rem;
   padding: 0.6vw 0.4vw;
-  border-radius: 6px;
+  border-bottom: #111111 2.5px solid;
+  border-right: #111111 4px solid;
+  border-radius: 8px;
   margin-top: 1vw;
-  width: 90vw;
+  width: 92.5vw;
   cursor: pointer;
 }
 
 .rcalc_option__cont:hover {
-  background-color: #66666688;  
+  background-color: #66666688;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
 }
 
 .rcalc_option__item {
   display: inline-block;
-  text-shadow: 3px 2px #000000;
+  text-shadow: 1.6px 2px #000000;
 }
 
 .rcalc_option__item___descricao {
   text-align: right;
   display: inline-block;
   font-size: 1.6rem;
-  text-shadow: 3px 2px #00ff99;
+  text-shadow: 1.4px 2px #222222;
   width: 100%;
 }
